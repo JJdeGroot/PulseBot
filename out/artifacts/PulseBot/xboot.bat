@@ -1,0 +1,1 @@
+java -Xbootclasspath/p:PulseBot.jar -jar PulseBot.jar
