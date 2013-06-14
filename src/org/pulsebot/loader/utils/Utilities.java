@@ -1,7 +1,8 @@
 package org.pulsebot.loader.utils;
 
-import java.awt.Image;
-import java.awt.Toolkit;
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.FilteredImageSource;
 import java.awt.image.ImageProducer;
@@ -15,10 +16,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
-
-import javax.imageio.ImageIO;
-import javax.swing.GrayFilter;
-import javax.swing.ImageIcon;
 
 public final class Utilities {
 
@@ -67,6 +64,7 @@ public final class Utilities {
 	public static void sleep(int min, int max){
 		sleep(random(min, max));
 	}
+
 	
 	/** Returns the current date */
 	private static Date getDate(){

@@ -8,4 +8,5 @@ package org.pulsebot.injection.interfaces;
  */
 public interface ClientInterface {
     public Player[] getPlayerArray();
+    public int getCameraYaw();
 }

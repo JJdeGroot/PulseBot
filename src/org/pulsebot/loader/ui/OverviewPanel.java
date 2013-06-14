@@ -79,9 +79,10 @@ public class OverviewPanel extends JPanel {
 				JLabel label = labels.get(hashCode);
 				Client client = clients.get(hashCode);
 				ImageIcon icon = resize(client.getGameBuffer(), tabNumber++);
-                if(icon != null && label != null)
+                if(icon != null && label != null){
                     label.setIcon(icon);
-                label.revalidate();
+                    label.revalidate();
+                }
 			}
 			tabNumber++;
 		}

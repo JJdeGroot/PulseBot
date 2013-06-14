@@ -7,6 +7,7 @@ import org.pulsebot.injection.generic.AbstractAnalyser;
 import org.pulsebot.loader.ClientApplet;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.ListIterator;
 
 /**
@@ -50,12 +51,17 @@ public class ClientAnalyser extends AbstractAnalyser {
                 getter.visitEnd();
                 node.methods.add(getter);
             }
-
-
-
-
         }
+        ListIterator<MethodNode> mnit = node.methods.listIterator();
+        while(mnit.hasNext()){
+            MethodNode mn = mnit.next();
+            InsnList in = mn.instructions;
+            Iterator<AbstractInsnNode> anit = in.iterator();
+            while(anit.hasNext()){
+                AbstractInsnNode an = anit.next();
 
+            }
+        }
         return node.name;
     }
 }

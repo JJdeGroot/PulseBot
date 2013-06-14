@@ -1,5 +1,6 @@
 package org.pulsebot.loader;
 
+import org.pulsebot.injection.input.PulseMouseListeners;
 import org.pulsebot.injection.interfaces.ClientInterface;
 import org.pulsebot.injection.interfaces.Player;
 import org.pulsebot.loader.ui.OverviewPanel;
@@ -19,7 +20,7 @@ public class Client {
 	private ClientApplet loader = null;
 	private BufferedImage gameBuffer = null, paintBuffer = null;
 	private OverviewPanel overviewPanel;
-	
+
 	/**
 	 * Creates a new Client
 	 * @param link link to load
@@ -29,13 +30,22 @@ public class Client {
 	public Client(String link, int width, int height, OverviewPanel overviewPanel) {
 		this.overviewPanel = overviewPanel;
 		this.loader = new ClientApplet(link, width, height, true);
-	
+
 		// Gives our buffers the same size as the applet's canvas
 		this.gameBuffer = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 		this.paintBuffer = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 		
 		System.out.println("Starting applet");
 		this.loader.start();
+        while(getCanvas() == null){
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
+        }
+        PulseMouseListeners m = new PulseMouseListeners(getCanvas(),this);
+        m.windMouse(200,200,10);
 	}
 	
 	/**

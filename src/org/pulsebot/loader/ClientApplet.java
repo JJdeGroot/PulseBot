@@ -104,6 +104,7 @@ public class ClientApplet extends JPanel implements AppletStub {
         this.analysers.add(new ClientAnalyser());
         this.analysers.add(new PlayerAnalyser());
         this.analysers.add(new CanvasAnalyser());
+
     }
     private void runAnalysters(){
         Object obj[] = CLASSES.values().toArray();
