@@ -28,6 +28,13 @@ local.properties
 # PDT-specific
 .buildpath
 
+#################
+## IntelliJ
+#################
+
+*/.idea/workspace.xml
+*/.idea/tasks.xml
+*.iws
 
 #################
 ## Visual Studio

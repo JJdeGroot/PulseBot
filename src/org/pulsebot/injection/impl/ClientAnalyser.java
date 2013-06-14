@@ -17,6 +17,7 @@ import java.util.ListIterator;
  * Time: 2:22 PM
  */
 public class ClientAnalyser extends AbstractAnalyser {
+
     @Override
     protected boolean canRun(ClassNode node) {
         int fields = 0,self=0;
@@ -29,7 +30,7 @@ public class ClientAnalyser extends AbstractAnalyser {
                 self++;
 
         }
-        return fields >= 200&&self==1;
+        return fields >= 200 && self==1;
     }
 
     @Override

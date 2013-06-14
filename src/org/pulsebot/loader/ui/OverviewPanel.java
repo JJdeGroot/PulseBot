@@ -21,9 +21,9 @@ public class OverviewPanel extends JPanel {
 	
 	public OverviewPanel(){
 		setPreferredSize(new Dimension(765, 503));
-		setBackground(new Color(50, 50, 150));
-		setDoubleBuffered(true);
-		updateAll();
+		setBackground(new Color(0, 102, 255));
+        setDoubleBuffered(true);
+ 		updateAll();
 	}
 
 	private ImageIcon resize(BufferedImage image, int number){

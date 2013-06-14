@@ -85,11 +85,11 @@ public class ClientApplet extends JPanel implements AppletStub {
                     applet = (Applet) classLoader.loadClass(code).newInstance();
                 }
 
-
                 applet.setStub(this);
                 applet.setPreferredSize(new Dimension(width, height));
                 add(applet, BorderLayout.CENTER);
                 System.out.println(getComponent(0).getName());
+
             }
 
             System.out.println("End of ClientApplet");
@@ -117,15 +117,9 @@ public class ClientApplet extends JPanel implements AppletStub {
                 String clazz = analyser.getClass().toString().replace("class org.pulsebot.injection.impl.","");
                 clazz = clazz.replace("Analyser","");
                 CLASSNAMES.put(clazz,node.name);
-
             }
         }
     }
-
-
-
-
-
 
     /**
 	 * Initializes and starts the applet

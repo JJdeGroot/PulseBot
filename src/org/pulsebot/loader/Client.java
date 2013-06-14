@@ -118,9 +118,13 @@ public class Client {
 	public Graphics drawGraphics(Graphics2D g){
 		Graphics paintGraphics = paintBuffer.getGraphics();
 		paintGraphics.drawImage(gameBuffer, 0, 0, null);
+        paintGraphics.setColor(Color.WHITE);
+
+        // Player
 		Player[] playerArr = ((ClientInterface) getApplet()).getPlayerArray();
         paintGraphics.drawString(getMyPlayer(playerArr),200,200);
-		paintGraphics.setColor(Color.WHITE);
+
+        // Hashcode
 		paintGraphics.drawString("Custom drawing hashcode #" + getCanvas().getClass().getClassLoader().hashCode(), 100, 100);
 		paintGraphics.dispose();
 

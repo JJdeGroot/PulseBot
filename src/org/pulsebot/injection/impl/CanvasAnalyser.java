@@ -11,6 +11,7 @@ import org.pulsebot.injection.utils.GenericUtils;
  * Time: 12:40 PM
  */
 public class CanvasAnalyser extends AbstractAnalyser {
+
     @Override
     protected boolean canRun(ClassNode node) {
         if(node.superName.contains("Canvas"))
@@ -26,7 +27,6 @@ public class CanvasAnalyser extends AbstractAnalyser {
         System.out.println("Canvas successfully hacked.");
         return "Canvas";
     }
-
 
 }
 

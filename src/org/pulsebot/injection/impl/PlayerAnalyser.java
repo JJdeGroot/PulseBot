@@ -13,6 +13,7 @@ import java.util.ListIterator;
  * Time: 7:30 PM
  */
 public class PlayerAnalyser extends AbstractAnalyser {
+
     @Override
     protected boolean canRun(ClassNode node) {
         int inum = 0, strnum = 0;

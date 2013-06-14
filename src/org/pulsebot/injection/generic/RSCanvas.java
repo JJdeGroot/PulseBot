@@ -65,10 +65,6 @@ public class RSCanvas extends Canvas {
         }
     }
 
-
-
-
-
     boolean postsOldMouseEvents() {
         return true;
     }
@@ -77,8 +73,7 @@ public class RSCanvas extends Canvas {
         super.createBufferStrategy(numBuffers);
     }
 
-    public void createBufferStrategy(int numBuffers,
-                                     BufferCapabilities caps) throws AWTException {
+    public void createBufferStrategy(int numBuffers, BufferCapabilities caps) throws AWTException {
         super.createBufferStrategy(numBuffers, caps);
     }
 
