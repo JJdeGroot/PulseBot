@@ -18,35 +18,36 @@ import java.util.jar.JarOutputStream;
  * Time: 1:50 PM
  */
 public class JarUtils {
-    public static HashMap<String,ClassNode> parseJar(JarFile jarfile){
+    public static HashMap<String, ClassNode> parseJar(JarFile jarfile) {
         HashMap<String, ClassNode> classes = new HashMap();
-        try{
+        try {
             Enumeration<?> enumeration = jarfile.entries();//Get all the classes in the jar file
-            while (enumeration.hasMoreElements()){ //While classes exists
+            while (enumeration.hasMoreElements()) { //While classes exists
                 JarEntry entry = (JarEntry) enumeration.nextElement();//Get the class
-                if(entry.getName().endsWith(".class")){//Check if it ends in .class, so make sure it is a class file
+                if (entry.getName().endsWith(".class")) {//Check if it ends in .class, so make sure it is a class file
                     ClassReader classReader = new ClassReader(jarfile.getInputStream(entry));//Class reader
                     ClassNode classNode = new ClassNode(); //A ASM class file thing
                     classReader.accept(classNode, ClassReader.SKIP_DEBUG | ClassReader.SKIP_FRAMES); //Reads the class
-                    classes.put(classNode.name,classNode); //Puts class in the hashmap
+                    classes.put(classNode.name, classNode); //Puts class in the hashmap
                 }
             }
             jarfile.close();
             return classes;
-        } catch(Exception e){
+        } catch (Exception e) {
             return null;
         }
     }
-    public static void updateJar(HashMap<String, ClassNode > classes, JarFile jar) {
+
+    public static void updateJar(HashMap<String, ClassNode> classes, JarFile jar) {
         try {
             System.out.println("\nDumping injected classes.\n");
             Enumeration<?> enumeration = jar.entries();
 
-            JarOutputStream newJ = new JarOutputStream(new FileOutputStream(new File("injected.jar")),jar.getManifest());
+            JarOutputStream newJ = new JarOutputStream(new FileOutputStream(new File("injected.jar")), jar.getManifest());
             while (enumeration.hasMoreElements()) {
                 JarEntry entry = (JarEntry) enumeration.nextElement();
                 if (entry.getName().endsWith(".class")) {
-                    String className = entry.getName().replaceAll(".class","");
+                    String className = entry.getName().replaceAll(".class", "");
                     if (classes.containsKey(className)) {
                         newJ.putNextEntry(new JarEntry(entry.getName()));
                         ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_MAXS);
@@ -55,8 +56,7 @@ public class JarUtils {
                         try {
                             ByteArrayInputStream byteAr = new ByteArrayInputStream(cw.toByteArray());
                             byte[] buffer = new byte[1024];
-                            while (true)
-                            {
+                            while (true) {
                                 int count = byteAr.read(buffer);
                                 if (count == -1)
                                     break;

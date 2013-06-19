@@ -11,20 +11,21 @@ import org.objectweb.asm.Opcodes;
  * Time: 8:23 AM
  */
 public class RenameVisitor extends ClassVisitor {
-    private String newName,oldName;
+    private String newName, oldName;
 
 
-    public RenameVisitor(String newName,String oldName){
+    public RenameVisitor(String newName, String oldName) {
         super(Opcodes.ASM4);
         this.newName = newName;
         this.oldName = oldName;
     }
+
     @Override
     public MethodVisitor visitMethod(int access, String name,
                                      String desc, String signature, String[] exceptions) {
-        if(name.contains(oldName)){
+        if (name.contains(oldName)) {
             System.out.println(newName);
-            return cv.visitMethod(access,newName,desc,signature,exceptions);
+            return cv.visitMethod(access, newName, desc, signature, exceptions);
         }
         return cv.visitMethod(access, name, desc, signature, exceptions);
     }

@@ -7,19 +7,20 @@ import java.awt.*;
 
 /**
  * Creates the frame containing everything our client needs
+ *
  * @author JJ
  */
 public class BotFrame extends JFrame {
 
-	private static final long serialVersionUID = 3376926333205547092L;
-	
-	private BotTabPane botTabs;
-	
-	/**
-	 * Creates a frame containing everything our client needs
-	 */
-	public BotFrame(){
-		super("PulseBot");
+    private static final long serialVersionUID = 3376926333205547092L;
+
+    private BotTabPane botTabs;
+
+    /**
+     * Creates a frame containing everything our client needs
+     */
+    public BotFrame() {
+        super("PulseBot");
 
         // Size
         setSize(790, 580);
@@ -30,8 +31,8 @@ public class BotFrame extends JFrame {
         add(botTabs, BorderLayout.NORTH);
 
         // Location
-		setLocationRelativeTo(null);
-		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-	}
-	
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+    }
+
 }

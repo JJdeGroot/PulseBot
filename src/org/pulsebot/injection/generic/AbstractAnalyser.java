@@ -9,13 +9,15 @@ import org.objectweb.asm.tree.ClassNode;
  * Time: 11:28 PM
  * To change this template use File | Settings | File Templates.
  */
-public  abstract class AbstractAnalyser {
+public abstract class AbstractAnalyser {
 
-    public String run(ClassNode node){
-        if(this.canRun(node))
+    public String run(ClassNode node) {
+        if (this.canRun(node))
             return this.analyse(node);
         return null;
     }
+
     protected abstract boolean canRun(ClassNode node);
+
     protected abstract String analyse(ClassNode node);
 }

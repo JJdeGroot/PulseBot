@@ -4,21 +4,21 @@
     <list default="true" id="6a2aee9d-924b-4c80-81c3-1d652da0c662" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotButton.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/asm_all_4_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gamepack.jar" afterPath="$PROJECT_DIR$/gamepack.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/injected.jar" afterPath="$PROJECT_DIR$/injected.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTabPane.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTabPane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTab.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/CanvasAnalyser.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/CanvasAnalyser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/loader/Client.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/loader/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/ClientAnalyser.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/ClientAnalyser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/loader/ClientApplet.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/loader/ClientApplet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommandLine.iml" afterPath="$PROJECT_DIR$/CommandLine.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/loader/Loader.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/loader/Loader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/PlayerAnalyser.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/PlayerAnalyser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/injection/generic/RSCanvas.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/injection/generic/RSCanvas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gamepack.jar" afterPath="$PROJECT_DIR$/gamepack.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/ClientAnalyser.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/ClientAnalyser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTabPane.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTabPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/PlayerAnalyser.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/PlayerAnalyser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/loader/ClientApplet.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/loader/ClientApplet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTab.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTab.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/loader/Loader.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/loader/Loader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/CanvasAnalyser.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/injection/impl/CanvasAnalyser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pulsebot/injection/generic/RSCanvas.java" afterPath="$PROJECT_DIR$/src/org/pulsebot/injection/generic/RSCanvas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommandLine.iml" afterPath="$PROJECT_DIR$/CommandLine.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/injected.jar" afterPath="$PROJECT_DIR$/injected.jar" />
     </list>
     <ignored path="PulseBot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +27,7 @@
     <file path="/ClientApplet.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371241122260" ignored="false" />
     <file path="/ClientAnalyser.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371199620522" ignored="false" />
     <file path="/OverviewPanel.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371241075638" ignored="false" />
-    <file path="/Client.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371237519023" ignored="false" />
+    <file path="/Client.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371609337034" ignored="false" />
     <file path="/PlayerAnalyser.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1370197950377" ignored="false" />
     <file path="/Player.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1369701392478" ignored="false" />
     <file path="/ClientInterface.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371192452383" ignored="false" />
@@ -48,6 +48,7 @@
     <file path="/BotButton.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371241362182" ignored="false" />
     <file path="/BotTab.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371242885365" ignored="false" />
     <file path="/Loader.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371242582087" ignored="false" />
+    <file path="/PulseKeyListeners.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371609783194" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,19 +115,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BotTab.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTab.java">
+      <file leaf-file-name="ClientAnalyser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/impl/ClientAnalyser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="59" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+            <state line="58" column="37" selection-start="2189" selection-end="2189" vertical-scroll-proportion="-10.8">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BotTabPane.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTabPane.java">
+      <file leaf-file-name="BotFrame.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/BotFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="45" selection-start="3365" selection-end="3365" vertical-scroll-proportion="0.0">
+            <state line="22" column="23" selection-start="478" selection-end="478" vertical-scroll-proportion="0.340388">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenameVisitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/RenameVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="16" selection-start="0" selection-end="907" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PulseMouseListeners.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseMouseListeners.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="37" selection-start="1431" selection-end="1431" vertical-scroll-proportion="6.12">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,38 +153,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OverviewPanel.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/OverviewPanel.java">
+      <file leaf-file-name="PulseKeyListeners.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseKeyListeners.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="43" selection-start="632" selection-end="632" vertical-scroll-proportion="0.17406143">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BotFrame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/BotFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="15" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Loader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/Loader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientApplet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ClientApplet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="23" selection-start="3763" selection-end="3763" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="55" column="38" selection-start="1471" selection-end="1471" vertical-scroll-proportion="11.64">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,27 +167,25 @@
       <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientPool.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/utils/ClientPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+            <state line="50" column="8" selection-start="1707" selection-end="1707" vertical-scroll-proportion="-13.6">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utilities.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/utils/Utilities.java">
+      <file leaf-file-name="GenericUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/utils/GenericUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="24" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
+            <state line="31" column="17" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractAnalyser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/AbstractAnalyser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="22" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,10 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/impl/CanvasAnalyser.java" />
-        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/impl/ClientAnalyser.java" />
-        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/impl/PlayerAnalyser.java" />
-        <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/ButtonTabComponent.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/BotButton.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/BotTabs.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/BotTab.java" />
@@ -228,19 +216,23 @@
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ClientApplet.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotFrame.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotButton.java" />
-        <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/BotFrame.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/Loader.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTab.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTabPane.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/OverviewPanel.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseMouseListeners.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/utils/GenericUtils.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/loader/Client.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseKeyListeners.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ui/BotFrame.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -268,6 +260,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -566,7 +559,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -579,7 +571,7 @@
     <property name="options.lastSelected" value="editor.preferences.import" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/asm-all-4.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bot/deobfuscate/Deobfuscator.java" />
     <property name="project.structure.side.proportion" value="0.20000012" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -688,28 +680,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.49786553" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.49510404" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31848553" sideWeight="0.48345783" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31760645" sideWeight="0.4853121" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24357405" sideWeight="0.68239355" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32293987" sideWeight="0.28815368" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32220945" sideWeight="0.2864137" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25080043" sideWeight="0.6815145" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31848553" sideWeight="0.51280683" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.250306" sideWeight="0.68239355" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31760645" sideWeight="0.51040393" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24357405" sideWeight="0.6766398" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.49786553" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -774,44 +766,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/interfaces/ClientInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/OverviewPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+        <state line="62" column="32" selection-start="1808" selection-end="1808" vertical-scroll-proportion="2.36">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/interfaces/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ClientApplet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/utils/GenericUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/utils/JarUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/types/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+        <state line="35" column="46" selection-start="0" selection-end="6551" vertical-scroll-proportion="2.36">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+        <state line="23" column="18" selection-start="547" selection-end="547" vertical-scroll-proportion="2.36">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -820,67 +791,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTabPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="45" selection-start="3365" selection-end="3365" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/tabs/BotTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="59" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+        <state line="105" column="9" selection-start="3420" selection-end="3420" vertical-scroll-proportion="2.36">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/Loader.java">
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/utils/GenericUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+        <state line="31" column="17" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ClientApplet.java">
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/AbstractAnalyser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="23" selection-start="3763" selection-end="3763" vertical-scroll-proportion="0.0">
+        <state line="11" column="22" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/RenameVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="16" selection-start="0" selection-end="907" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bot/transform/ClientTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bot/transform/Transformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="36.8" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bot/deobfuscate/Deobfuscator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.32" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bot/hook/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/impl/ClientAnalyser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="37" selection-start="2189" selection-end="2189" vertical-scroll-proportion="-10.8">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
+        <state line="50" column="8" selection-start="1707" selection-end="1707" vertical-scroll-proportion="-13.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseMouseListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="37" selection-start="1431" selection-end="1431" vertical-scroll-proportion="6.12">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/utils/ClientPool.java">
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseKeyListeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="55" column="38" selection-start="1471" selection-end="1471" vertical-scroll-proportion="11.64">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/BotFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="15" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/utils/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="24" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/loader/ui/OverviewPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="632" selection-end="632" vertical-scroll-proportion="0.17406143">
+        <state line="22" column="23" selection-start="478" selection-end="478" vertical-scroll-proportion="0.340388">
           <folding />
         </state>
       </provider>
@@ -927,7 +920,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.7 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -943,7 +936,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.20000009" />
+                <option value="0.2000001" />
               </list>
             </option>
           </splitter-proportions>

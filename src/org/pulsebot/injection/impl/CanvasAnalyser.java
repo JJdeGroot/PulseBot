@@ -14,16 +14,16 @@ public class CanvasAnalyser extends AbstractAnalyser {
 
     @Override
     protected boolean canRun(ClassNode node) {
-        if(node.superName.contains("Canvas"))
+        if (node.superName.contains("Canvas"))
             return true;
         return false;
     }
 
     @Override
     protected String analyse(ClassNode node) {
-        System.out.println("Canvas is: "+node.superName);
-        GenericUtils.setSuper(node,"org/pulsebot/injection/generic/RSCanvas");
-        System.out.println("Canvas is now: "+node.superName);
+        System.out.println("Canvas is: " + node.superName);
+        GenericUtils.setSuper(node, "org/pulsebot/injection/generic/RSCanvas");
+        System.out.println("Canvas is now: " + node.superName);
         System.out.println("Canvas successfully hacked.");
         return "Canvas";
     }

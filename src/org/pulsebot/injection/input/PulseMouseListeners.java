@@ -15,18 +15,20 @@ import java.util.Random;
  * Date: 6/12/13
  * Time: 1:58 PM
  */
-public class PulseMouseListeners implements MouseListener,MouseWheelListener,MouseMotionListener {
+public class PulseMouseListeners implements MouseListener, MouseWheelListener, MouseMotionListener {
     private ArrayList<MouseListener> MouseListeners = null;
     private ArrayList<MouseMotionListener> MouseMotionListeners = null;
     private ArrayList<MouseWheelListener> MouseWheelListeners = null;
     private Canvas canvas = null;
     private Client client = null;
-    private Point Position = new Point(-1,-1);
+    private Point Position = new Point(-1, -1);
     private Boolean InputEnabled = true;
-    public PulseMouseListeners(Canvas canvas, Client client){
-        this.construct(canvas,client);
+
+    public PulseMouseListeners(Canvas canvas, Client client) {
+        this.construct(canvas, client);
     }
-    public void construct(Canvas canvas, Client client){
+
+    public void construct(Canvas canvas, Client client) {
         this.canvas = canvas;
         this.client = client;
         this.MouseListeners = new ArrayList<>();
@@ -37,10 +39,12 @@ public class PulseMouseListeners implements MouseListener,MouseWheelListener,Mou
         this.MouseWheelListeners.addAll(Arrays.asList(canvas.getMouseWheelListeners()));
         removeAllListeners();
     }
-    public void updateclientCanvas(Canvas canvas,Client client) {
+
+    public void updateclientCanvas(Canvas canvas, Client client) {
         this.restoreAllListeners();
-        this.construct(canvas,client);
+        this.construct(canvas, client);
     }
+
     private void removeAllListeners() {
         for (MouseListener Listener : canvas.getMouseListeners()) {
             canvas.removeMouseListener(Listener);
@@ -76,12 +80,14 @@ public class PulseMouseListeners implements MouseListener,MouseWheelListener,Mou
             canvas.addMouseWheelListener(Listener);
         }
     }
+
     public void moveMouse(final int x, final int y) {
         final MouseEvent event = new MouseEvent(client.getApplet(), MouseEvent.MOUSE_MOVED,
                 System.currentTimeMillis(), 0, x, y, 0, false);
         this.mouseMoved(event);
         Position.setLocation(x, y);
     }
+
     public synchronized Point windMouse(int x, int y, final double speedFactor) {
         Random rand = new Random();
         double speed = (rand.nextDouble() * 15D + 15D) / 10D;
@@ -89,6 +95,7 @@ public class PulseMouseListeners implements MouseListener,MouseWheelListener,Mou
         return windMouseImpl(Position.x, Position.y, x, y, 9D, 3D, 5D / speed, 10D / speed,
                 10D * speed, 8D * speed);
     }
+
     /**
      * Internal mouse movement algorithm. Do not use this without credit to either Benjamin J. Land
      * or BenLand100. This is synchronized to prevent multiple motions and bannage.
@@ -154,6 +161,7 @@ public class PulseMouseListeners implements MouseListener,MouseWheelListener,Mou
         }
         return new Point(Position.x, Position.y);
     }
+
     @Override
     public void mouseClicked(MouseEvent e) {
         if (e.getSource() == client.getApplet()) {

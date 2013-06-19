@@ -20,28 +20,28 @@ public class ClientAnalyser extends AbstractAnalyser {
 
     @Override
     protected boolean canRun(ClassNode node) {
-        int fields = 0,self=0;
+        int fields = 0, self = 0;
         ListIterator<FieldNode> fnit = node.fields.listIterator();
-        while(fnit.hasNext()){
+        while (fnit.hasNext()) {
             FieldNode fn = fnit.next();
-            if(fn != null)
+            if (fn != null)
                 fields++;
-            if(fn.desc.contains(node.name))
+            if (fn.desc.contains(node.name))
                 self++;
 
         }
-        return fields >= 200 && self==1;
+        return fields >= 200 && self == 1;
     }
 
     @Override
     protected String analyse(ClassNode node) {
-        System.out.println("Client class is at: "+node.name);
-        HashMap<String,String> names = ClientApplet.CLASSNAMES;
+        System.out.println("Client class is at: " + node.name);
+        HashMap<String, String> names = ClientApplet.CLASSNAMES;
         node.interfaces.add("org/pulsebot/injection/interfaces/ClientInterface");
         ListIterator<FieldNode> fnIt = node.fields.listIterator();
-        while(fnIt.hasNext()){
+        while (fnIt.hasNext()) {
             FieldNode fn = fnIt.next();
-            if(fn.desc.equals("[L"+names.get("Player")+";")){
+            if (fn.desc.equals("[L" + names.get("Player") + ";")) {
                 System.out.println("   Player Array at: " + fn.name);
                 MethodNode getter = new MethodNode(Opcodes.ACC_PUBLIC, "getPlayerArray", "()[Lorg/pulsebot/injection/interfaces/Player;", null, null);
                 getter.instructions.add(new VarInsnNode(Opcodes.ALOAD, 0));
@@ -54,11 +54,11 @@ public class ClientAnalyser extends AbstractAnalyser {
             }
         }
         ListIterator<MethodNode> mnit = node.methods.listIterator();
-        while(mnit.hasNext()){
+        while (mnit.hasNext()) {
             MethodNode mn = mnit.next();
             InsnList in = mn.instructions;
             Iterator<AbstractInsnNode> anit = in.iterator();
-            while(anit.hasNext()){
+            while (anit.hasNext()) {
                 AbstractInsnNode an = anit.next();
 
             }

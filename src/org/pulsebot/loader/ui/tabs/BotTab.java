@@ -2,22 +2,25 @@ package org.pulsebot.loader.ui.tabs;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * Creates and adds a close button to a tab
  * and handles the actions performed on it
+ *
  * @author JJ
  */
 public class BotTab extends JPanel {
 
-	private static final long serialVersionUID = -3776747096077166405L;
-	
-	private JTabbedPane pane;
+    private static final long serialVersionUID = -3776747096077166405L;
+
+    private JTabbedPane pane;
 
     /**
      * Creates a new tab with a close button
-     * @param pane the jtabbedpane parent
+     *
+     * @param pane  the jtabbedpane parent
      * @param title title of the label
      */
     public BotTab(JTabbedPane pane, String title) {
@@ -37,7 +40,9 @@ public class BotTab extends JPanel {
         add(closeButton);
     }
 
-    /** Listens to clicks on the close button */
+    /**
+     * Listens to clicks on the close button
+     */
     private class CloseListener implements ActionListener {
 
         @Override

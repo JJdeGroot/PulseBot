@@ -12,36 +12,36 @@ import java.util.*;
  * Date: 6/7/13
  * Time: 11:16 PM
  */
-public class GenericUtils
-{
-    public static int getMultiplier(ClassNode cn,String owner,String fieldName){
-        ArrayList<Integer>a = new ArrayList<Integer>();
+public class GenericUtils {
+    public static int getMultiplier(ClassNode cn, String owner, String fieldName) {
+        ArrayList<Integer> a = new ArrayList<Integer>();
         ListIterator<MethodNode> mnit = cn.methods.listIterator();
-        while(mnit.hasNext()){
+        while (mnit.hasNext()) {
             InsnList in = mnit.next().instructions;
             Iterator<AbstractInsnNode> anin = in.iterator();
-            while(anin.hasNext()){
+            while (anin.hasNext()) {
                 AbstractInsnNode an = anin.next();
-                if(an instanceof FieldInsnNode){
-                    if(((FieldInsnNode) an).owner.equals(owner)&&((FieldInsnNode) an).name.equals(fieldName)){
-                        if(an.getNext().getOpcode() == Opcodes.LDC)
-                            a.add((Integer) ((LdcInsnNode)an.getNext()).cst);
-                        else if(an.getPrevious().getOpcode() == Opcodes.LDC)
-                            a.add((Integer)((LdcInsnNode)an.getPrevious()).cst);
+                if (an instanceof FieldInsnNode) {
+                    if (((FieldInsnNode) an).owner.equals(owner) && ((FieldInsnNode) an).name.equals(fieldName)) {
+                        if (an.getNext().getOpcode() == Opcodes.LDC)
+                            a.add((Integer) ((LdcInsnNode) an.getNext()).cst);
+                        else if (an.getPrevious().getOpcode() == Opcodes.LDC)
+                            a.add((Integer) ((LdcInsnNode) an.getPrevious()).cst);
                     }
 
                 }
             }
         }
-        if(a.size()>0)
-            return(GenericUtils.getMostFrequentNLogN(a).getKey());
+        if (a.size() > 0)
+            return (GenericUtils.getMostFrequentNLogN(a).getKey());
         return -1;
     }
+
     public static void setSuper(ClassNode node, String superClass) {
         String replacedSuper = "";
-        if(node.superName != "")
+        if (node.superName != "")
             replacedSuper = node.superName;
-        if(replacedSuper != "") {
+        if (replacedSuper != "") {
             ListIterator<?> mli = node.methods.listIterator();
             while (mli.hasNext()) {
                 MethodNode mn = (MethodNode) mli.next();
@@ -50,7 +50,7 @@ public class GenericUtils
                     AbstractInsnNode ain = (AbstractInsnNode) ili.next();
                     if (ain.getOpcode() == Opcodes.INVOKESPECIAL) {
                         MethodInsnNode min = (MethodInsnNode) ain;
-                        if(min.owner.equals(replacedSuper)) {
+                        if (min.owner.equals(replacedSuper)) {
                             min.owner = superClass;
                         }
                     }
@@ -59,13 +59,14 @@ public class GenericUtils
         }
         node.superName = superClass;
     }
+
     public static int modInverse(String integer) {
         BigInteger modulus = new BigInteger(String.valueOf(1L << 32));
         BigInteger m1 = new BigInteger(integer);
         return m1.modInverse(modulus).intValue();
     }
-    private static AbstractMap.SimpleEntry<Integer, Integer> getMostFrequentNLogN(ArrayList<Integer> values)
-    {
+
+    private static AbstractMap.SimpleEntry<Integer, Integer> getMostFrequentNLogN(ArrayList<Integer> values) {
         ArrayList<Integer> tmp = new ArrayList(values);
 
         Collections.sort(tmp);
@@ -74,16 +75,11 @@ public class GenericUtils
 
         int current = tmp.get(0);
         int count = 0;
-        for (int i = 0; i < tmp.size(); ++i)
-        {
-            if (tmp.get(i) == current)
-            {
+        for (int i = 0; i < tmp.size(); ++i) {
+            if (tmp.get(i) == current) {
                 count++;
-            }
-            else
-            {
-                if (count > max.getValue())
-                {
+            } else {
+                if (count > max.getValue()) {
                     max = new AbstractMap.SimpleEntry<Integer, Integer>(current, count);
                 }
 
@@ -93,8 +89,7 @@ public class GenericUtils
             }
         }
 
-        if (count > max.getValue())
-        {
+        if (count > max.getValue()) {
             max = new AbstractMap.SimpleEntry<Integer, Integer>(current, count);
         }
 

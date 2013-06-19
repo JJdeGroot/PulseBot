@@ -31,22 +31,22 @@ public class RSCanvas extends Canvas {
     }
 
     void setGraphicsConfiguration(GraphicsConfiguration gc) {
-        synchronized(getTreeLock()) {
+        synchronized (getTreeLock()) {
             CanvasPeer peer = (CanvasPeer) getPeer();
             if (peer != null) {
                 gc = peer.getAppropriateGraphicsConfiguration(gc);
             }
-           setGraphicsConfiguration(gc);
+            setGraphicsConfiguration(gc);
         }
     }
 
     @Override
     public Graphics getGraphics() {
-        if(client == null){
+        if (client == null) {
             client = ClientPool.getClient(this);
         }
 
-        if(client != null){
+        if (client != null) {
             return client.drawGraphics((Graphics2D) super.getGraphics());
         }
 
@@ -82,15 +82,14 @@ public class RSCanvas extends Canvas {
     }
 
 
-    protected class AccessibleAWTCanvas extends AccessibleAWTComponent
-    {
+    protected class AccessibleAWTCanvas extends AccessibleAWTComponent {
         private static final long serialVersionUID = -6325592262103146699L;
 
         /**
          * Get the role of this object.
          *
          * @return an instance of AccessibleRole describing the role of the
-         * object
+         *         object
          * @see AccessibleRole
          */
         public AccessibleRole getAccessibleRole() {
