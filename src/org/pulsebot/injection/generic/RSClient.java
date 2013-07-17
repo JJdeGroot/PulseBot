@@ -23,6 +23,7 @@ import javax.swing.JPanel;
 import org.objectweb.asm.tree.ClassNode;
 import org.pulsebot.game.api.mouse.Mouse;
 import org.pulsebot.injection.impl.*;
+import org.pulsebot.injection.input.PulseMouseListeners;
 import org.pulsebot.injection.interfaces.IClient;
 import org.pulsebot.injection.interfaces.INPC;
 import org.pulsebot.injection.interfaces.IPlayer;
@@ -134,6 +135,9 @@ public class RSClient extends JPanel implements AppletStub {
                 applet.init();
     			applet.start();
                 add(applet, BorderLayout.CENTER);
+                while(getCanvas() == null)
+                    sleep(10);
+                PulseMouseListeners mouseListeners = new PulseMouseListeners(getCanvas(),this);
 			}
 		} catch (Exception e) {
 			System.out.println("Error constructing client");
@@ -147,7 +151,10 @@ public class RSClient extends JPanel implements AppletStub {
 	 * @return injected RSCanvas
 	 */
 	public RSCanvas getCanvas() {
-		return (RSCanvas) applet.getComponent(0);
+        if(applet.getComponents().length>0)
+		    return (RSCanvas) applet.getComponent(0);
+        else
+            return null;
 	}
     public Applet getApplet(){
         return applet;
@@ -205,7 +212,8 @@ public class RSClient extends JPanel implements AppletStub {
 
         paintGraphics.drawString("Camera Yaw: "+Integer.toString(yaw),10,180);
         if(yaw != 0){
-            Mouse.moveMouse(random(100,200),random(100,200));
+            paintGraphics.drawLine(0, Mouse.getMousePosition().y, 765, Mouse.getMousePosition().y);
+            paintGraphics.drawLine(Mouse.getMousePosition().x,0,Mouse.getMousePosition().x,503);
         }
        
         // Pulsebot

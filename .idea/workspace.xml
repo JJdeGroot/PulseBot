@@ -28,10 +28,10 @@
     <file path="/Utilities.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1370664981863" ignored="false" />
     <file path="/GenericUtils.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374081857708" ignored="false" />
     <file path="/MouseAnalyser.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371046328273" ignored="false" />
-    <file path="/Mouse.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374083272692" ignored="false" />
+    <file path="/Mouse.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374086051866" ignored="false" />
     <file path="/mouseRenaming.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1370817371652" ignored="false" />
     <file path="/RenameVisitor.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371045867821" ignored="false" />
-    <file path="/PulseMouseListeners.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371671759863" ignored="false" />
+    <file path="/PulseMouseListeners.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374086124919" ignored="false" />
     <file path="/BotButton.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371241362182" ignored="false" />
     <file path="/BotTab.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373409074370" ignored="false" />
     <file path="/Loader.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373484812549" ignored="false" />
@@ -66,7 +66,7 @@
     <file path="/AbstractAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374077663673" ignored="false" />
     <file path="/CacheableNodeAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374077748123" ignored="false" />
     <file path="/GameShellAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374077919878" ignored="false" />
-    <file path="/RSClient.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374083743092" ignored="false" />
+    <file path="/RSClient.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374086581188" ignored="false" />
     <file path="/IClient.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374080675963" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,19 +139,10 @@
       <file leaf-file-name="Mouse.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/pulsebot/game/api/mouse/Mouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="32" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
+            <state line="40" column="49" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Keyboard.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/game/api/keyboard/Keyboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -168,15 +159,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActorAnalyzer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/impl/ActorAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="31" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AbstractAnalyzer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/AbstractAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -188,11 +170,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RSClient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RSClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/RSClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="207" column="47" selection-start="8378" selection-end="8378" vertical-scroll-proportion="0.767148">
+            <state line="156" column="24" selection-start="6761" selection-end="6761" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PulseBot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/PulseBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PulseMouseListeners.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseMouseListeners.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="254" column="90" selection-start="8999" selection-end="8999" vertical-scroll-proportion="0.3682243">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,7 +213,7 @@
       <file leaf-file-name="RSCanvas.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/RSCanvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="20" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -263,12 +265,12 @@
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/generic/AbstractAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/loader/ClientApplet.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseKeyListeners.java" />
-        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseMouseListeners.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/interfaces/IClient.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/utils/GenericUtils.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/impl/ClientAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/game/api/mouse/Mouse.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/generic/RSClient.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseMouseListeners.java" />
       </list>
     </option>
   </component>
@@ -353,6 +355,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pulsebot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pulsebot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -593,7 +617,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/asm-all-4.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/org" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -734,7 +758,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278496" sideWeight="0.49566832" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.49510404" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29377204" sideWeight="0.6243812" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31609872" sideWeight="0.78898513" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31609872" sideWeight="0.21101485" order="10" side_tool="false" content_ui="tabs" />
@@ -742,8 +766,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24846625" sideWeight="0.21403913" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26175743" sideWeight="0.70622796" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29377204" sideWeight="0.37561882" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26175743" sideWeight="0.6839013" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29377204" sideWeight="0.37561882" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24294479" sideWeight="0.684271" order="5" side_tool="false" content_ui="tabs" />
@@ -816,13 +840,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/impl/GameShellAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="9" selection-start="560" selection-end="576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/impl/CanvasAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
@@ -848,15 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="30" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseMouseListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="652" selection-end="652" vertical-scroll-proportion="88.22">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -907,22 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/RSCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="20" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/game/api/mouse/Mouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseKeyListeners.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="37" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
@@ -932,10 +924,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/PulseBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/RSCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/game/api/mouse/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="49" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/RSClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="47" selection-start="8378" selection-end="8378" vertical-scroll-proportion="0.767148">
+        <state line="156" column="24" selection-start="6761" selection-end="6761" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/input/PulseMouseListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="254" column="90" selection-start="8999" selection-end="8999" vertical-scroll-proportion="0.3682243">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -24,6 +24,7 @@ public class PulseMouseListeners implements MouseListener, MouseWheelListener, M
     private RSClient client = null;
     private Point Position = new Point(-1, -1);
     private Boolean InputEnabled = true;
+    private static Point sPosition;
 
     public PulseMouseListeners(Canvas canvas, RSClient client) {
         this.construct(canvas, client);
@@ -81,12 +82,16 @@ public class PulseMouseListeners implements MouseListener, MouseWheelListener, M
             canvas.addMouseWheelListener(Listener);
         }
     }
+    public static Point getPosition(){
 
+        return sPosition;
+    }
     public void moveMouse(final int x, final int y) {
         final MouseEvent event = new MouseEvent(client.getApplet(), MouseEvent.MOUSE_MOVED,
                 System.currentTimeMillis(), 0, x, y, 0, false);
         this.mouseMoved(event);
         Position.setLocation(x, y);
+        sPosition = Position;
     }
     public void pressMouse(boolean right) {
         MouseEvent pressed = new MouseEvent(client.getApplet(), MouseEvent.MOUSE_PRESSED,
@@ -279,11 +284,13 @@ public class PulseMouseListeners implements MouseListener, MouseWheelListener, M
                 Listener.mouseMoved(e);
             }
             Position = new Point(e.getX(), e.getY());
+            sPosition = Position;
         } else if (InputEnabled) {
             for (MouseMotionListener Listener : MouseMotionListeners) {
                 Listener.mouseMoved(e);
             }
             Position = new Point(e.getX(), e.getY());
+            sPosition = Position;
         }
 
     }
