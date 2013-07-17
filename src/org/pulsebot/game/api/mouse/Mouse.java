@@ -20,6 +20,7 @@ public class Mouse {
     private static RSClient client = null;
 
     public static void moveMouse(int x, int y){
+        client = RSClient.getClient();
         System.out.println(MouseInfo.getPointerInfo().getLocation());
         if(client != null){
             PulseMouseListeners mouseListeners = new PulseMouseListeners(client.getCanvas(),client);
@@ -35,6 +36,7 @@ public class Mouse {
         }
     }
     public static void clickMouse(boolean right){
+        client = RSClient.getClient();
         PulseMouseListeners mouseListeners = new PulseMouseListeners(client.getCanvas(),client);
         mouseListeners.pressMouse(right);
         sleep(random(10,30));

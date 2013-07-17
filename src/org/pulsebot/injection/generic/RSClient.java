@@ -21,12 +21,16 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import org.objectweb.asm.tree.ClassNode;
+import org.pulsebot.game.api.mouse.Mouse;
 import org.pulsebot.injection.impl.*;
 import org.pulsebot.injection.interfaces.IClient;
 import org.pulsebot.injection.interfaces.INPC;
 import org.pulsebot.injection.interfaces.IPlayer;
 import org.pulsebot.injection.utils.JarUtils;
 import org.pulsebot.utils.Utilities;
+
+import static org.pulsebot.utils.Utilities.random;
+import static org.pulsebot.utils.Utilities.sleep;
 
 public class RSClient extends JPanel implements AppletStub {
 
@@ -36,7 +40,7 @@ public class RSClient extends JPanel implements AppletStub {
 	private final Pattern codeRegex = Pattern.compile("code=(.*) ");
 	private final Pattern archiveRegex = Pattern.compile("archive=(.*) ");
 	private final Pattern paramRegex = Pattern.compile("<param name=\"([^\\s]+)\"\\s+value=\"([^>]*)\">");
-
+    private static RSClient client = null;
 	// LOADER
 	private HashMap<String, String> parameters = new HashMap<String, String>();
 	private Applet applet = null;
@@ -77,6 +81,7 @@ public class RSClient extends JPanel implements AppletStub {
      * Finally, the applet is constructed and started
      */
 	public RSClient(){
+        client = this;
 		RSCanvas.setClient(this);
 		setLayout(new BorderLayout(0, 0));
 		setPreferredSize(new Dimension(765, 503));
@@ -147,6 +152,9 @@ public class RSClient extends JPanel implements AppletStub {
     public Applet getApplet(){
         return applet;
     }
+    public static RSClient getClient(){
+        return client;
+    }
 	
 	/**
 	 * Returns the image of RuneScape
@@ -195,7 +203,10 @@ public class RSClient extends JPanel implements AppletStub {
         double radians = ((IClient)applet).getCameraYaw();
         int yaw = (int)Math.round(radians/2048*360);
 
-        paintGraphics.drawString("Camera Yaw: "+Integer.toString(yaw),100,100);
+        paintGraphics.drawString("Camera Yaw: "+Integer.toString(yaw),10,180);
+        if(yaw != 0){
+            Mouse.moveMouse(random(100,200),random(100,200));
+        }
        
         // Pulsebot
         paintGraphics.drawString("PulseBot RSClient", 10, 100);
