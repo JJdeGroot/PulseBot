@@ -1,6 +1,6 @@
 package org.pulsebot.injection.input;
 
-import org.pulsebot.loader.Client;
+import org.pulsebot.injection.generic.RSClient;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -14,26 +14,26 @@ import java.util.Arrays;
  * Time: 9:28 PM
  */
 public class PulseKeyListeners implements KeyListener {
-    private ArrayList<KeyListener> KeyListeners = null;
+    private ArrayList<KeyListener> keyListeners = null;
     private Canvas canvas = null;
-    private Client client = null;
+    private RSClient rsClient = null;
     private Boolean InputEnabled = true;
 
-    public PulseKeyListeners(Canvas canvas, Client client) {
-        this.construct(canvas, client);
+    public PulseKeyListeners(Canvas canvas, RSClient rsClient) {
+        this.construct(canvas, rsClient);
     }
 
-    public void construct(Canvas canvas, Client client) {
+    public void construct(Canvas canvas, RSClient client) {
         this.canvas = canvas;
-        this.client = client;
-        this.KeyListeners = new ArrayList<>();
-        this.KeyListeners.addAll(Arrays.asList(canvas.getKeyListeners()));
+        this.rsClient = rsClient;
+        this.keyListeners = new ArrayList<>();
+        this.keyListeners.addAll(Arrays.asList(canvas.getKeyListeners()));
         removeAllListeners();
     }
 
-    public void updateclientCanvas(Canvas canvas, Client client) {
+    public void updateRSClientCanvas(Canvas canvas, RSClient RSClient) {
         this.restoreAllListeners();
-        this.construct(canvas, client);
+        this.construct(canvas, RSClient);
     }
 
     private void removeAllListeners() {
@@ -46,7 +46,7 @@ public class PulseKeyListeners implements KeyListener {
     private void restoreAllListeners() {
         canvas.removeKeyListener(this);
 
-        for (KeyListener Listener : KeyListeners) {
+        for (KeyListener Listener : keyListeners) {
             canvas.addKeyListener(Listener);
         }
 
@@ -54,13 +54,13 @@ public class PulseKeyListeners implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
-        if (e.getSource() == client.getApplet()) {
+        if (e.getSource() == rsClient.getApplet()) {
             e.setSource(canvas);
-            for (KeyListener Listener : KeyListeners) {
+            for (KeyListener Listener : keyListeners) {
                 Listener.keyTyped(e);
             }
         } else if (InputEnabled) {
-            for (KeyListener Listener : KeyListeners) {
+            for (KeyListener Listener : keyListeners) {
                 Listener.keyTyped(e);
             }
         }
@@ -68,14 +68,14 @@ public class PulseKeyListeners implements KeyListener {
 
     @Override
     public void keyPressed(KeyEvent e) {
-        if (e.getSource() == client.getApplet()) {
+        if (e.getSource() == rsClient.getApplet()) {
             e.setSource(canvas);
 
-            for (KeyListener Listener : KeyListeners) {
+            for (KeyListener Listener : keyListeners) {
                 Listener.keyPressed(e);
             }
         } else if (InputEnabled) {
-            for (KeyListener Listener : KeyListeners) {
+            for (KeyListener Listener : keyListeners) {
                 Listener.keyPressed(e);
             }
         }
@@ -83,14 +83,14 @@ public class PulseKeyListeners implements KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-        if (e.getSource() == client.getApplet()) {
+        if (e.getSource() == rsClient.getApplet()) {
             e.setSource(canvas);
 
-            for (KeyListener Listener : KeyListeners) {
+            for (KeyListener Listener : keyListeners) {
                 Listener.keyReleased(e);
             }
         } else if (InputEnabled) {
-            for (KeyListener Listener : KeyListeners) {
+            for (KeyListener Listener : keyListeners) {
                 Listener.keyReleased(e);
             }
         }

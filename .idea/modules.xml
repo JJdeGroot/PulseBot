@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CommandLine.iml" filepath="$PROJECT_DIR$/CommandLine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PulseBot.iml" filepath="$PROJECT_DIR$/PulseBot.iml" />
     </modules>
   </component>
 </project>

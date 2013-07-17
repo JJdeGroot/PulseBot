@@ -10,7 +10,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../asm-all-4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/asm-all-4.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

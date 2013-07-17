@@ -1,7 +1,8 @@
 package org.pulsebot.injection.input;
 
 
-import org.pulsebot.loader.Client;
+
+import org.pulsebot.injection.generic.RSClient;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -11,7 +12,7 @@ import java.util.Random;
 
 /**
  * Created with IntelliJ IDEA.
- * User: NKN& Brandon T
+ * User: NKN
  * Date: 6/12/13
  * Time: 1:58 PM
  */
@@ -20,15 +21,15 @@ public class PulseMouseListeners implements MouseListener, MouseWheelListener, M
     private ArrayList<MouseMotionListener> MouseMotionListeners = null;
     private ArrayList<MouseWheelListener> MouseWheelListeners = null;
     private Canvas canvas = null;
-    private Client client = null;
+    private RSClient client = null;
     private Point Position = new Point(-1, -1);
     private Boolean InputEnabled = true;
 
-    public PulseMouseListeners(Canvas canvas, Client client) {
+    public PulseMouseListeners(Canvas canvas, RSClient client) {
         this.construct(canvas, client);
     }
 
-    public void construct(Canvas canvas, Client client) {
+    public void construct(Canvas canvas, RSClient client) {
         this.canvas = canvas;
         this.client = client;
         this.MouseListeners = new ArrayList<>();
@@ -40,7 +41,7 @@ public class PulseMouseListeners implements MouseListener, MouseWheelListener, M
         removeAllListeners();
     }
 
-    public void updateclientCanvas(Canvas canvas, Client client) {
+    public void updateclientCanvas(Canvas canvas, RSClient client) {
         this.restoreAllListeners();
         this.construct(canvas, client);
     }
@@ -87,6 +88,23 @@ public class PulseMouseListeners implements MouseListener, MouseWheelListener, M
         this.mouseMoved(event);
         Position.setLocation(x, y);
     }
+    public void pressMouse(boolean right) {
+        MouseEvent pressed = new MouseEvent(client.getApplet(), MouseEvent.MOUSE_PRESSED,
+                System.currentTimeMillis(), right ? InputEvent.BUTTON3_MASK : 0,
+                (int) Position.getX(), (int) Position.getY(), 1, false);
+
+        this.mousePressed(pressed);
+    }
+
+
+
+    public void releaseMouse() {
+        MouseEvent released = new MouseEvent(client.getApplet(), MouseEvent.MOUSE_RELEASED,
+                System.currentTimeMillis(), 0, (int) Position.getX(), (int) Position.getY(), 1,
+                false);
+        this.mouseReleased(released);
+    }
+
 
     public synchronized Point windMouse(int x, int y, final double speedFactor) {
         Random rand = new Random();

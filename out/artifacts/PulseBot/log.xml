@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v4.6 DEMO
+   Web: http://www.allatori.com
+
+   Log created: Wed Jul 10 14:04:20 CDT 2013
+-->
+
+<allatori>
+ <mapping>
+  <class old="org.pulsebot.loader.ui.OverviewPanel" new="org.pulsebot.loader.b.l">
+   <method old="resize(Ljava/awt/image/BufferedImage;I)Ljavax/swing/ImageIcon;" new="ALLATORI_DEMO"/>
+   <method old="update(I)V" new="ALLATORI_DEMO"/>
+   <method old="updateAll()V" new="ALLATORI_DEMO"/>
+   <field old="clients Ljava/util/HashMap;" new="B"/>
+   <field old="height I" new="D"/>
+   <field old="labels Ljava/util/HashMap;" new="ALLATORI_DEMO"/>
+   <field old="serialVersionUID J" new="f"/>
+   <field old="width I" new="F"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotTabPane$AddListener" new="org.pulsebot.loader.b.a.g">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lorg/pulsebot/loader/ui/tabs/BotTabPane;" new="ALLATORI_DEMO"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotTab$CloseListener$1" new="org.pulsebot.loader.b.a.A">
+   <method old="run()V" new="run"/>
+   <field old="this$1 Lorg/pulsebot/loader/ui/tabs/BotTab$CloseListener;" new="ALLATORI_DEMO"/>
+  </class>
+  <class old="org.pulsebot.loader.ClientApplet" new="org.pulsebot.loader.l">
+   <method old="appletResize(II)V" new="appletResize"/>
+   <method old="destruct()V" new="b"/>
+   <method old="getApplet()Ljava/applet/Applet;" new="e"/>
+   <method old="getAppletContext()Ljava/applet/AppletContext;" new="getAppletContext"/>
+   <method old="getCodeBase()Ljava/net/URL;" new="getCodeBase"/>
+   <method old="getDocumentBase()Ljava/net/URL;" new="getDocumentBase"/>
+   <method old="getParameter(Ljava/lang/String;)Ljava/lang/String;" new="getParameter"/>
+   <method old="isActive()Z" new="isActive"/>
+   <method old="runAnalyzers(Ljava/util/HashMap;)V" new="ALLATORI_DEMO"/>
+   <method old="setBounds(IIII)V" new="setBounds"/>
+   <method old="setLocation(II)V" new="setLocation"/>
+   <method old="start()V" new="ALLATORI_DEMO"/>
+   <field old="CLASSNAMES Ljava/util/HashMap;" new="c"/>
+   <field old="applet Ljava/applet/Applet;" new="ALLATORI_DEMO"/>
+   <field old="archiveRegex Ljava/util/regex/Pattern;" new="f"/>
+   <field old="classLoader Ljava/net/URLClassLoader;" new="B"/>
+   <field old="codeBase Ljava/net/URL;" new="F"/>
+   <field old="codeRegex Ljava/util/regex/Pattern;" new="D"/>
+   <field old="documentBase Ljava/net/URL;" new="G"/>
+   <field old="paramRegex Ljava/util/regex/Pattern;" new="l"/>
+   <field old="parameters Ljava/util/HashMap;" new="L"/>
+   <field old="serialVersionUID J" new="H"/>
+  </class>
+  <class old="org.pulsebot.loader.Loader" new="org.pulsebot.loader.Loader">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="ALLATORI_DEMO"/>
+   <method old="main([Ljava/lang/String;)V" new="main"/>
+  </class>
+  <class old="org.pulsebot.loader.types.Language" new="org.pulsebot.loader.c.g">
+   <method old="getNumber()I" new="ALLATORI_DEMO"/>
+   <method old="valueOf(Ljava/lang/String;)Lorg/pulsebot/loader/types/Language;" new="valueOf"/>
+   <method old="values()[Lorg/pulsebot/loader/types/Language;" new="values"/>
+   <field old="$VALUES [Lorg/pulsebot/loader/types/Language;" new="B"/>
+   <field old="ENGLISH Lorg/pulsebot/loader/types/Language;" new="ALLATORI_DEMO"/>
+   <field old="FRENCH Lorg/pulsebot/loader/types/Language;" new="c"/>
+   <field old="GERMAN Lorg/pulsebot/loader/types/Language;" new="F"/>
+   <field old="PORTUGUESE Lorg/pulsebot/loader/types/Language;" new="f"/>
+   <field old="SPANISH Lorg/pulsebot/loader/types/Language;" new="D"/>
+   <field old="number I" new="l"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotButton$HoverListener" new="org.pulsebot.loader.b.a.G">
+   <method old="mouseClicked(Ljava/awt/event/MouseEvent;)V" new="mouseClicked"/>
+   <method old="mouseEntered(Ljava/awt/event/MouseEvent;)V" new="mouseEntered"/>
+   <method old="mouseExited(Ljava/awt/event/MouseEvent;)V" new="mouseExited"/>
+   <method old="mousePressed(Ljava/awt/event/MouseEvent;)V" new="mousePressed"/>
+   <method old="mouseReleased(Ljava/awt/event/MouseEvent;)V" new="mouseReleased"/>
+   <field old="this$0 Lorg/pulsebot/loader/ui/tabs/BotButton;" new="ALLATORI_DEMO"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotTabPane$TabListener" new="org.pulsebot.loader.b.a.l">
+   <method old="stateChanged(Ljavax/swing/event/ChangeEvent;)V" new="stateChanged"/>
+   <field old="this$0 Lorg/pulsebot/loader/ui/tabs/BotTabPane;" new="ALLATORI_DEMO"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotTabPane" new="org.pulsebot.loader.b.a.a">
+   <method old="access$200(Lorg/pulsebot/loader/ui/tabs/BotTabPane;)Lorg/pulsebot/loader/ui/OverviewPanel;" new="e"/>
+   <method old="access$300()Ljava/util/HashMap;" new="e"/>
+   <method old="access$400(Lorg/pulsebot/loader/ui/tabs/BotTabPane;)V" new="ALLATORI_DEMO"/>
+   <method old="getClientApplet(I)Lorg/pulsebot/loader/ClientApplet;" new="ALLATORI_DEMO"/>
+   <method old="newTabButton()V" new="b"/>
+   <method old="spawnTab()V" new="ALLATORI_DEMO"/>
+   <field old="clients Ljava/util/HashMap;" new="B"/>
+   <field old="overviewPanel Lorg/pulsebot/loader/ui/OverviewPanel;" new="F"/>
+   <field old="serialVersionUID J" new="ALLATORI_DEMO"/>
+  </class>
+  <class old="org.pulsebot.loader.types.Version" new="org.pulsebot.loader.c.l">
+   <method old="valueOf(Ljava/lang/String;)Lorg/pulsebot/loader/types/Version;" new="valueOf"/>
+   <method old="values()[Lorg/pulsebot/loader/types/Version;" new="values"/>
+   <field old="$VALUES [Lorg/pulsebot/loader/types/Version;" new="ALLATORI_DEMO"/>
+   <field old="CLASSIC Lorg/pulsebot/loader/types/Version;" new="F"/>
+   <field old="NORMAL Lorg/pulsebot/loader/types/Version;" new="D"/>
+   <field old="OLDSCHOOL Lorg/pulsebot/loader/types/Version;" new="B"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotTab$CloseListener" new="org.pulsebot.loader.b.a.I">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lorg/pulsebot/loader/ui/tabs/BotTab;" new="ALLATORI_DEMO"/>
+  </class>
+  <class old="org.pulsebot.loader.utils.Utilities" new="org.pulsebot.loader.a.l">
+   <method old="downloadFile(Ljava/lang/String;Ljava/lang/String;)V" new="ALLATORI_DEMO"/>
+   <method old="getDate()Ljava/util/Date;" new="e"/>
+   <method old="getInstance()Lorg/pulsebot/loader/utils/Utilities;" new="ALLATORI_DEMO"/>
+   <method old="getPage(Ljava/lang/String;)Ljava/lang/String;" new="e"/>
+   <method old="grayScaleImage(Ljava/awt/Image;I)Ljava/awt/Image;" new="ALLATORI_DEMO"/>
+   <method old="loadResourceImage(Ljava/lang/String;)Ljava/awt/Image;" new="ALLATORI_DEMO"/>
+   <method old="random(II)I" new="ALLATORI_DEMO"/>
+   <method old="saveImage(Ljava/awt/image/BufferedImage;)V" new="ALLATORI_DEMO"/>
+   <method old="scaleIcon(IILjavax/swing/ImageIcon;)Ljavax/swing/ImageIcon;" new="ALLATORI_DEMO"/>
+   <method old="scaleImage(IILjava/awt/Image;)Ljava/awt/Image;" new="ALLATORI_DEMO"/>
+   <method old="sleep(I)V" new="ALLATORI_DEMO"/>
+   <method old="sleep(II)V" new="e"/>
+   <field old="dateFormat Ljava/text/SimpleDateFormat;" new="F"/>
+   <field old="instance Lorg/pulsebot/loader/utils/Utilities;" new="ALLATORI_DEMO"/>
+   <field old="random Ljava/util/Random;" new="B"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.BotFrame" new="org.pulsebot.loader.b.g">
+   <method old="windowActivated(Ljava/awt/event/WindowEvent;)V" new="windowActivated"/>
+   <method old="windowClosed(Ljava/awt/event/WindowEvent;)V" new="windowClosed"/>
+   <method old="windowClosing(Ljava/awt/event/WindowEvent;)V" new="windowClosing"/>
+   <method old="windowDeactivated(Ljava/awt/event/WindowEvent;)V" new="windowDeactivated"/>
+   <method old="windowDeiconified(Ljava/awt/event/WindowEvent;)V" new="windowDeiconified"/>
+   <method old="windowIconified(Ljava/awt/event/WindowEvent;)V" new="windowIconified"/>
+   <method old="windowOpened(Ljava/awt/event/WindowEvent;)V" new="windowOpened"/>
+   <field old="botTabs Lorg/pulsebot/loader/ui/tabs/BotTabPane;" new="ALLATORI_DEMO"/>
+   <field old="serialVersionUID J" new="F"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotButton" new="org.pulsebot.loader.b.a.f">
+  </class>
+  <class old="org.pulsebot.loader.Client" new="org.pulsebot.loader.g">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="ALLATORI_DEMO"/>
+   <method old="deepCopy(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;" new="ALLATORI_DEMO"/>
+   <method old="drawGraphics(Ljava/awt/Graphics2D;)Ljava/awt/Graphics;" new="ALLATORI_DEMO"/>
+   <method old="getApplet()Ljava/applet/Applet;" new="G"/>
+   <method old="getCanvas()Ljava/awt/Canvas;" new="ALLATORI_DEMO"/>
+   <method old="getGameBuffer()Ljava/awt/image/BufferedImage;" new="b"/>
+   <method old="getLoader()Lorg/pulsebot/loader/ClientApplet;" new="h"/>
+   <method old="getPaintBuffer()Ljava/awt/image/BufferedImage;" new="e"/>
+   <field old="gameBuffer Ljava/awt/image/BufferedImage;" new="D"/>
+   <field old="loader Lorg/pulsebot/loader/ClientApplet;" new="F"/>
+   <field old="overviewPanel Lorg/pulsebot/loader/ui/OverviewPanel;" new="B"/>
+   <field old="paintBuffer Ljava/awt/image/BufferedImage;" new="ALLATORI_DEMO"/>
+  </class>
+  <class old="org.pulsebot.loader.utils.ClientPool" new="org.pulsebot.loader.a.g">
+   <method old="getClient(I)Lorg/pulsebot/loader/Client;" new="ALLATORI_DEMO"/>
+   <method old="getClient(Ljava/awt/Canvas;)Lorg/pulsebot/loader/Client;" new="ALLATORI_DEMO"/>
+   <method old="getClients()Ljava/util/HashMap;" new="e"/>
+   <method old="getInstance()Lorg/pulsebot/loader/utils/ClientPool;" new="ALLATORI_DEMO"/>
+   <field old="clients Ljava/util/HashMap;" new="ALLATORI_DEMO"/>
+   <field old="instance Lorg/pulsebot/loader/utils/ClientPool;" new="F"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotTabPane$1" new="org.pulsebot.loader.b.a.h">
+   <method old="getContentBorderInsets(I)Ljava/awt/Insets;" new="getContentBorderInsets"/>
+   <method old="paintContentBorder(Ljava/awt/Graphics;II)V" new="paintContentBorder"/>
+   <field old="borderInsets Ljava/awt/Insets;" new="ALLATORI_DEMO"/>
+   <field old="this$0 Lorg/pulsebot/loader/ui/tabs/BotTabPane;" new="F"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotTab$1" new="org.pulsebot.loader.b.a.H">
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotTabPane$2" new="org.pulsebot.loader.b.a.k">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lorg/pulsebot/loader/ui/tabs/BotTabPane;" new="ALLATORI_DEMO"/>
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotButton$1" new="org.pulsebot.loader.b.a.F">
+  </class>
+  <class old="org.pulsebot.loader.ui.tabs.BotTab" new="org.pulsebot.loader.b.a.m">
+   <method old="access$100(Lorg/pulsebot/loader/ui/tabs/BotTab;)Lorg/pulsebot/loader/ui/tabs/BotTabPane;" new="e"/>
+   <method old="access$200(Lorg/pulsebot/loader/ui/tabs/BotTab;)Ljavax/swing/JPanel;" new="ALLATORI_DEMO"/>
+   <method old="closeTabs()V" new="ALLATORI_DEMO"/>
+   <method old="getClient()Lorg/pulsebot/loader/Client;" new="e"/>
+   <field old="pane Lorg/pulsebot/loader/ui/tabs/BotTabPane;" new="ALLATORI_DEMO"/>
+   <field old="panel Ljavax/swing/JPanel;" new="f"/>
+   <field old="serialVersionUID J" new="B"/>
+   <field old="spane Lorg/pulsebot/loader/ui/tabs/BotTabPane;" new="D"/>
+   <field old="spanel Ljavax/swing/JPanel;" new="F"/>
+  </class>
+  <sources>
+   <source old="Client.java" new="d"/>
+   <source old="ClientApplet.java" new="c"/>
+   <source old="Loader.java" new="r"/>
+   <source old="Language.java" new="x"/>
+   <source old="Version.java" new="w"/>
+   <source old="BotFrame.java" new="l"/>
+   <source old="OverviewPanel.java" new="e"/>
+   <source old="BotButton.java" new="s"/>
+   <source old="BotTab.java" new="j"/>
+   <source old="BotTabPane.java" new="m"/>
+   <source old="ClientPool.java" new="f"/>
+   <source old="Utilities.java" new="k"/>
+  </sources>
+  <lines>
+   <line l="56"/>
+   <line l="104"/>
+   <line l="55"/>
+   <line l="201"/>
+   <line l="262"/>
+   <line l="132"/>
+   <line l="85"/>
+   <line l="219"/>
+   <line l="207"/>
+   <line l="90"/>
+   <line l="181"/>
+   <line l="237"/>
+   <line l="163"/>
+   <line l="226"/>
+   <line l="174"/>
+   <line l="225"/>
+   <line l="205"/>
+   <line l="110"/>
+   <line l="141"/>
+   <line l="61"/>
+   <line l="180"/>
+   <line l="240"/>
+   <line l="95"/>
+   <line l="16"/>
+   <line l="63"/>
+   <line l="30"/>
+   <line l="183"/>
+   <line l="135"/>
+   <line l="27"/>
+   <line l="60"/>
+   <line l="72"/>
+   <line l="80"/>
+   <line l="140"/>
+   <line l="150"/>
+   <line l="111"/>
+   <line l="170"/>
+   <line l="229"/>
+   <line l="169"/>
+   <line l="3"/>
+   <line l="261"/>
+   <line l="204"/>
+   <line l="48"/>
+   <line l="115"/>
+   <line l="202"/>
+   <line l="187"/>
+   <line l="42"/>
+   <line l="199"/>
+   <line l="94"/>
+   <line l="37"/>
+   <line l="25"/>
+   <line l="75"/>
+   <line l="97"/>
+   <line l="68"/>
+   <line l="155"/>
+   <line l="258"/>
+   <line l="125"/>
+   <line l="38"/>
+   <line l="223"/>
+   <line l="171"/>
+   <line l="73"/>
+   <line l="86"/>
+   <line l="19"/>
+   <line l="146"/>
+   <line l="112"/>
+   <line l="0"/>
+   <line l="234"/>
+   <line l="256"/>
+   <line l="119"/>
+   <line l="177"/>
+   <line l="210"/>
+   <line l="88"/>
+   <line l="168"/>
+   <line l="248"/>
+   <line l="28"/>
+   <line l="1"/>
+   <line l="7"/>
+   <line l="120"/>
+   <line l="78"/>
+   <line l="39"/>
+   <line l="52"/>
+   <line l="165"/>
+   <line l="6"/>
+   <line l="67"/>
+   <line l="51"/>
+   <line l="206"/>
+   <line l="10"/>
+   <line l="100"/>
+   <line l="194"/>
+   <line l="101"/>
+   <line l="4"/>
+   <line l="213"/>
+   <line l="64"/>
+   <line l="251"/>
+   <line l="249"/>
+   <line l="127"/>
+   <line l="84"/>
+   <line l="233"/>
+   <line l="22"/>
+   <line l="197"/>
+   <line l="167"/>
+   <line l="105"/>
+   <line l="47"/>
+   <line l="12"/>
+   <line l="15"/>
+   <line l="143"/>
+   <line l="83"/>
+   <line l="243"/>
+   <line l="188"/>
+   <line l="156"/>
+   <line l="69"/>
+   <line l="238"/>
+   <line l="203"/>
+   <line l="45"/>
+   <line l="49"/>
+   <line l="185"/>
+   <line l="11"/>
+   <line l="191"/>
+   <line l="190"/>
+   <line l="254"/>
+   <line l="161"/>
+   <line l="255"/>
+   <line l="113"/>
+   <line l="114"/>
+   <line l="164"/>
+   <line l="189"/>
+   <line l="92"/>
+   <line l="173"/>
+   <line l="26"/>
+   <line l="116"/>
+   <line l="242"/>
+   <line l="122"/>
+   <line l="121"/>
+   <line l="176"/>
+   <line l="2"/>
+   <line l="79"/>
+   <line l="178"/>
+   <line l="182"/>
+   <line l="211"/>
+   <line l="157"/>
+   <line l="32"/>
+   <line l="108"/>
+   <line l="62"/>
+   <line l="160"/>
+   <line l="231"/>
+   <line l="91"/>
+   <line l="250"/>
+   <line l="57"/>
+   <line l="41"/>
+   <line l="239"/>
+   <line l="44"/>
+   <line l="209"/>
+   <line l="109"/>
+   <line l="74"/>
+   <line l="257"/>
+   <line l="98"/>
+   <line l="232"/>
+   <line l="29"/>
+   <line l="46"/>
+   <line l="20"/>
+   <line l="124"/>
+   <line l="198"/>
+   <line l="21"/>
+   <line l="147"/>
+   <line l="195"/>
+   <line l="70"/>
+   <line l="220"/>
+   <line l="93"/>
+   <line l="230"/>
+   <line l="128"/>
+   <line l="65"/>
+   <line l="246"/>
+   <line l="162"/>
+   <line l="50"/>
+   <line l="152"/>
+   <line l="117"/>
+   <line l="76"/>
+   <line l="216"/>
+   <line l="99"/>
+   <line l="200"/>
+   <line l="5"/>
+   <line l="228"/>
+   <line l="130"/>
+   <line l="172"/>
+   <line l="14"/>
+   <line l="40"/>
+   <line l="58"/>
+   <line l="259"/>
+   <line l="81"/>
+   <line l="131"/>
+   <line l="224"/>
+   <line l="18"/>
+   <line l="13"/>
+   <line l="159"/>
+   <line l="260"/>
+   <line l="23"/>
+   <line l="235"/>
+   <line l="66"/>
+   <line l="34"/>
+   <line l="166"/>
+   <line l="137"/>
+   <line l="212"/>
+   <line l="82"/>
+   <line l="148"/>
+   <line l="71"/>
+   <line l="236"/>
+   <line l="142"/>
+   <line l="149"/>
+   <line l="24"/>
+   <line l="217"/>
+   <line l="139"/>
+   <line l="17"/>
+   <line l="107"/>
+   <line l="43"/>
+   <line l="9"/>
+   <line l="247"/>
+   <line l="129"/>
+   <line l="241"/>
+   <line l="245"/>
+   <line l="103"/>
+   <line l="192"/>
+   <line l="126"/>
+   <line l="77"/>
+   <line l="134"/>
+   <line l="123"/>
+   <line l="96"/>
+   <line l="31"/>
+   <line l="193"/>
+   <line l="252"/>
+   <line l="186"/>
+   <line l="244"/>
+   <line l="221"/>
+   <line l="208"/>
+   <line l="89"/>
+   <line l="118"/>
+   <line l="102"/>
+   <line l="222"/>
+   <line l="153"/>
+   <line l="53"/>
+   <line l="36"/>
+   <line l="138"/>
+   <line l="158"/>
+   <line l="144"/>
+   <line l="136"/>
+   <line l="179"/>
+   <line l="87"/>
+   <line l="215"/>
+   <line l="227"/>
+   <line l="35"/>
+   <line l="133"/>
+   <line l="214"/>
+   <line l="196"/>
+   <line l="8"/>
+   <line l="175"/>
+   <line l="145"/>
+   <line l="184"/>
+   <line l="253"/>
+   <line l="218"/>
+   <line l="151"/>
+   <line l="106"/>
+   <line l="54"/>
+   <line l="59"/>
+   <line l="33"/>
+   <line l="154"/>
+  </lines>
+ </mapping>
+</allatori>

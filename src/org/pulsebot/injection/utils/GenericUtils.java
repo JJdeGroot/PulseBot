@@ -13,6 +13,39 @@ import java.util.*;
  * Time: 11:16 PM
  */
 public class GenericUtils {
+    /**
+     *
+     * @param node  Classnode to add the method to
+     * @param owner Owner of the field
+     * @param fieldName Name of the field
+     * @param fieldDesc Description of the field
+     * @param methodName  The name of the method
+     * @param returnType  What type of interface is it returning to
+     * @param multiplier  The fields multiplier, return -1 if no multiplier
+     * @param statc  Return true if the field static
+     *
+     * @author NKN
+     */
+    public static void addMethod(ClassNode node, String owner,String fieldName, String fieldDesc, String methodName, String returnType,int multiplier,boolean statc){
+        MethodNode getter = new MethodNode(Opcodes.ACC_PUBLIC, methodName, returnType, null, null);
+        getter.instructions.add(new VarInsnNode(Opcodes.ALOAD, 0));
+        if(statc)
+            getter.instructions.add(new FieldInsnNode(Opcodes.GETSTATIC, owner, fieldName, fieldDesc));
+        else
+            getter.instructions.add(new FieldInsnNode(Opcodes.GETFIELD, owner, fieldName, fieldDesc));
+        if(multiplier != -1){
+            getter.instructions.add(new LdcInsnNode(multiplier));
+            getter.instructions.add(new InsnNode(Opcodes.IMUL));
+            getter.instructions.add(new InsnNode(Opcodes.IRETURN));
+        } else
+            getter.instructions.add(new InsnNode(Opcodes.ARETURN));
+        int size = getter.instructions.size();
+        getter.visitMaxs(size, size);
+        getter.visitEnd();
+        node.methods.add(getter);
+
+
+    }
     public static int getMultiplier(ClassNode cn, String owner, String fieldName) {
         ArrayList<Integer> a = new ArrayList<Integer>();
         ListIterator<MethodNode> mnit = cn.methods.listIterator();
