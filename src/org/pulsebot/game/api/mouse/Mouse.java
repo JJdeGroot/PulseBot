@@ -17,8 +17,10 @@ import static org.pulsebot.utils.Utilities.sleep;
  * Time: 8:57 AM
  */
 public class Mouse {
+    
     private static RSClient client = null;
     private static Point Position = null;
+    
     public static void moveMouse(int x, int y){
         client = RSClient.getClient();
         if(client != null){
@@ -27,6 +29,7 @@ public class Mouse {
             Position = mouseListeners.getPosition();
         }
     }
+    
     public static void clickMouse(int x, int y, boolean right){
             moveMouse(x,y);
         if(client != null){
@@ -36,10 +39,11 @@ public class Mouse {
             Position = mouseListeners.getPosition();
         }
     }
+    
     public static Point getMousePosition(){
-
         return PulseMouseListeners.getPosition();
     }
+    
     public static void clickMouse(boolean right){
         client = RSClient.getClient();
         PulseMouseListeners mouseListeners = new PulseMouseListeners(client.getCanvas(),client);
@@ -47,6 +51,7 @@ public class Mouse {
         sleep(random(10,30));
         Position = mouseListeners.getPosition();
     }
+    
     public static void clickMouse(){
         clickMouse(false);
     }
