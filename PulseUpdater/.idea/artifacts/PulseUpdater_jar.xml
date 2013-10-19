@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PulseUpdater:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PulseUpdater_jar</output-path>
+    <root id="archive" name="PulseUpdater.jar">
+      <element id="module-output" name="PulseUpdater" />
+    </root>
+  </artifact>
+</component>

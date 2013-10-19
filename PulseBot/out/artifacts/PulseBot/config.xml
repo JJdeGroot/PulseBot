@@ -1,0 +1,12 @@
+<config>
+    <jars>
+        <jar in="PulseBot.jar" out="PulseBot1.jar"/>
+        
+    </jars>
+
+    <keep-names>
+        <class template="class *.Loader"/>
+    </keep-names>
+
+    <property name="log-file" value="log.xml"/>
+</config>

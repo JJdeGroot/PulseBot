@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PulseBot" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a2aee9d-924b-4c80-81c3-1d652da0c662" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PulseUpdater/asm-all-4.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/lib/asm-all-4.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/boot_pulse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/pause_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/repeat_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/small_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/start_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/stop_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/generic/AbstractAnalyzer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/AddFieldAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/AddGetterAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/AddGetterMultiplierAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/AddInterfaceAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/AddMethodCallAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/AddSetterAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/ChangeSuperClassAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/ClassAdaptation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/ClassAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/analyzers/ClientAnalyzer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/util/Configuration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/CustomAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/util/FieldData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/generic/FieldHook.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/util/Filter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/util/Filters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/modscript/node/GetterModScriptNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/generic/Hook.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/ICache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/ICacheableNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/IClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/IHashTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/ILinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/IModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/INPC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/INPCDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/INode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/IPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/IPlayerDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/accessors/IQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/pulsebot/ui/ImageButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/searchers/InsSearcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/util/JarUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/modscript/node/MethodCallModScriptNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/util/MethodData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/MethodRenameAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/modscript/node/ModScriptNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/modscript/ModScriptReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/modscript/ModScriptWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/pulsebot/PulseBot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/RemoveInterfaceAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/Updater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Shared/src/org/pulsebot/util/Utilities.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\ant.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\artifacts\PulseBot.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\description.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\PulseBot.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\asm-all-4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\fsdfsd.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\gamepack.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\injected.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\AnnotationVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\AnnotationWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\Attribute.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\ByteVector.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\ClassReader.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\ClassVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\ClassWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\Context.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\FieldVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\FieldWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\Frame.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\Handle.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\Handler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\Item.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\Label.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\MethodVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\MethodWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\Opcodes.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\Type.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\AdviceAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\AnalyzerAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\CodeSizeEvaluator.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\GeneratorAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\InstructionAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\JSRInlinerAdapter$Instantiation.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\JSRInlinerAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\LocalVariablesSorter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\Method.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\Remapper.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\RemappingAnnotationAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\RemappingClassAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\RemappingFieldAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\RemappingMethodAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\RemappingSignatureAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\SerialVersionUIDAdder$Item.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\SerialVersionUIDAdder.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\SimpleRemapper.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\StaticInitMerger.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\TableSwitchGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\TryCatchBlockSorter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\commons\TryCatchBlockSorter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\signature\SignatureReader.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\signature\SignatureVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\signature\SignatureWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\AbstractInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\AnnotationNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\ClassNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\FieldInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\FieldNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\FrameNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\IincInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\InnerClassNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\InsnList$InsnListIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\InsnList.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\InsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\IntInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\InvokeDynamicInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\JumpInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\LabelNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\LdcInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\LineNumberNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\LocalVariableNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\LookupSwitchInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\MethodInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\MethodNode$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\MethodNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\MultiANewArrayInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\TableSwitchInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\TryCatchBlockNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\TypeInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\VarInsnNode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\Analyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\AnalyzerException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\BasicInterpreter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\BasicValue.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\BasicVerifier.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\Frame.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\Interpreter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\SimpleVerifier.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\SmallSet.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\SourceInterpreter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\SourceValue.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\Subroutine.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\tree\analysis\Value.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\ASMifiable.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\ASMifier.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\CheckAnnotationAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\CheckClassAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\CheckFieldAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\CheckMethodAdapter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\CheckMethodAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\CheckSignatureAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\Printer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\Textifiable.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\Textifier.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\TraceAnnotationVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\TraceClassVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\TraceFieldVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\TraceMethodVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\util\TraceSignatureVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$AnnotationDefaultRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$AnnotationParameterRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$AnnotationRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$AnnotationValueAnnotationRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$AnnotationValueArrayRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$AnnotationValueEnumRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$AnnotationValueRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$ClassRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$ExceptionRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$ExceptionsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$FieldRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$FrameRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$FrameTypeRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$InnerClassRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$InterfaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$InterfacesRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$InvokeDynamicBsmArgumentsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$InvokeDynamicRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$LabelRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$LineNumberRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$LocalVarRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$LookupSwitchLabelRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$LookupSwitchRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$MaxRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$MethodRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$Opcode.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$OpcodeGroup.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$OpcodesRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$OuterClassRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$Rule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$RuleSet.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$SourceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$TableSwitchLabelRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$TableSwitchRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler$TryCatchRule.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\ASMContentHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$ASMContentHandlerFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$ASMContentHandlerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$ContentHandlerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$EntryElement.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$InputSlicingHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$OutputSlicingHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$ProtectedInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$SAXWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$SAXWriterFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$SingleDocElement.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$SubdocumentHandlerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$TransformerHandlerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor$ZipEntryElement.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\Processor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\SAXAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\SAXAnnotationAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\SAXClassAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\SAXCodeAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\org\objectweb\asm\xml\SAXFieldAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\artifacts\PulseBot\PulseBot.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\artifacts\PulseBot\config.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\artifacts\PulseBot\fsdfsd.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\artifacts\PulseBot\gamepack.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\artifacts\PulseBot\injected.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\artifacts\PulseBot\log.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\game\api\keyboard\Keyboard.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\game\api\mouse\Mouse.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\generic\AbstractAnalyser.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\generic\RSCanvas$AccessibleAWTCanvas.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\generic\RSCanvas.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\generic\RenameVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\ActorAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\CacheNodeAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\CacheableNodeQueueAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\CanvasAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\ClientAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\ModelAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\NodeAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\NodeCacheAnaylzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\NodeQueueAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\PlayerAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\PlayerDefAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\impl\RenderableAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\input\PulseKeyListeners.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\input\PulseMouseListeners.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\interfaces\ClientInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\interfaces\Player.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\utils\GenericUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\injection\utils\JarUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\Client.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ClientApplet.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\Loader.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\types\Language.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\types\Version.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\BotFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\OverviewPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotButton$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotButton$HoverListener.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotButton.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotTab$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotTab$CloseListener$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotTab$CloseListener.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotTab.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotTabPane$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotTabPane$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotTabPane$AddListener.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotTabPane$TabListener.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\ui\tabs\BotTabPane.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\utils\ClientPool.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\CommandLine\org\pulsebot\loader\utils\Utilities.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\PulseBot.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\api\NPC.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\api\NPCDefinition.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\api\Player.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\api\PlayerDefinition.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\game\api\keyboard\Keyboard.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\game\api\mouse\Mouse.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\generic\AbstractAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\generic\RSCanvas.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\generic\RSClient.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\generic\RenameVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\ActorAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\CacheableNodeAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\CacheableNodeQueueAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\CanvasAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\ClientAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\GameShellAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\ModelAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\NPCAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\NPCDefinitionAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\NodeAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\NodeCacheAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\NodeHashTableAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\NodeQueueAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\PlayerAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\PlayerDefinitionAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\impl\RenderableAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\input\PulseKeyListeners.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\input\PulseMouseListeners.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\interfaces\IClient.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\interfaces\INPC.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\interfaces\INPCDefinition.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\interfaces\IPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\interfaces\IPlayerDefinition.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\utils\GenericUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\utils\InsnFinder.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\utils\InsnFinder2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\injection\utils\JarUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\ui\BotLogger$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\ui\BotLogger$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\ui\BotLogger.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\ui\BotMenuBar$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\ui\BotMenuBar$DebugListener.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\ui\BotMenuBar.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\org\pulsebot\utils\Utilities.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\resources\asm-all-4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\out\production\PulseBot\resources\boot_pulse.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\PulseBot.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\api\NPC.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\api\NPCDefinition.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\api\Player.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\api\PlayerDefinition.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\game\api\keyboard\Keyboard.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\game\api\mouse\Mouse.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\generic\AbstractAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\generic\RSCanvas.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\generic\RSClient.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\generic\RenameVisitor.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\ActorAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\CacheableNodeAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\CacheableNodeQueueAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\CanvasAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\ClientAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\GameShellAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\ModelAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\NPCAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\NPCDefinitionAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\NodeAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\NodeCacheAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\NodeHashTableAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\NodeQueueAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\PlayerAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\PlayerDefinitionAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\impl\RenderableAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\input\PulseKeyListeners.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\input\PulseMouseListeners.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\interfaces\IClient.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\interfaces\INPC.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\interfaces\INPCDefinition.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\interfaces\IPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\interfaces\IPlayerDefinition.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\utils\GenericUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\utils\InsnFinder.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\utils\InsnFinder2.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\injection\utils\JarUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\ui\BotLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\ui\BotMenuBar.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\org\pulsebot\utils\Utilities.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\resources\asm-all-4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\src\resources\boot_pulse.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\Programming\Pulse\PulseBot\test.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PulseBot.rar" afterPath="$PROJECT_DIR$/../PulseBot.rar" />
+    </list>
+    <ignored path="PulseBot.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1382211285250" ignored="false" />
+    <file path="/fragment.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379285990029" ignored="false" />
+    <file path="/ClientApplet.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373914188836" ignored="false" />
+    <file path="/ClientAnalyser.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373297271250" ignored="false" />
+    <file path="/OverviewPanel.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371241075638" ignored="false" />
+    <file path="/Client.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373913347531" ignored="false" />
+    <file path="/PlayerAnalyser.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1372178791214" ignored="false" />
+    <file path="/Player.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373913360889" ignored="false" />
+    <file path="/ClientInterface.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371192452383" ignored="false" />
+    <file path="/BotTabs.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371242504121" ignored="false" />
+    <file path="/CanvasAnalyser.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1370784427954" ignored="false" />
+    <file path="/Canvas.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1370196661144" ignored="false" />
+    <file path="/Canvas1.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1370196616691" ignored="false" />
+    <file path="/RSCanvas.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1370197008380" ignored="false" />
+    <file path="/BotFrame.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373409751786" ignored="false" />
+    <file path="/ButtonTabComponent.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371239805488" ignored="false" />
+    <file path="/Utilities.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375733910159" ignored="false" />
+    <file path="/GenericUtils.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1376030947483" ignored="false" />
+    <file path="/MouseAnalyser.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371046328273" ignored="false" />
+    <file path="/Mouse.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374086051866" ignored="false" />
+    <file path="/mouseRenaming.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1370817371652" ignored="false" />
+    <file path="/RenameVisitor.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371045867821" ignored="false" />
+    <file path="/PulseMouseListeners.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374086124919" ignored="false" />
+    <file path="/BotButton.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1371241362182" ignored="false" />
+    <file path="/BotTab.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373409074370" ignored="false" />
+    <file path="/Loader.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373484812549" ignored="false" />
+    <file path="/PulseKeyListeners.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374078939319" ignored="false" />
+    <file path="/BotTabPane.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373481298126" ignored="false" />
+    <file path="/NodeAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379288249377" ignored="false" />
+    <file path="/CacheNodeAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373402444580" ignored="false" />
+    <file path="/PlayerAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375743747147" ignored="false" />
+    <file path="/CanvasAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379287502752" ignored="false" />
+    <file path="/RenderableAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375743921838" ignored="false" />
+    <file path="/ActorAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375737388661" ignored="false" />
+    <file path="/ModelAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375743503422" ignored="false" />
+    <file path="/CacheableNodeQueue.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373309559628" ignored="false" />
+    <file path="/NodeCacheAnaylzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373402607255" ignored="false" />
+    <file path="/NodeQueueAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373402631022" ignored="false" />
+    <file path="/PlayerDefAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373404709897" ignored="false" />
+    <file path="/CacheableNodeQueueAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373402456312" ignored="false" />
+    <file path="/ClientAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379863866174" ignored="false" />
+    <file path="/AbstractAnalyser.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373404400243" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/Main.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373483813907" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/ClientApplet.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373483977828" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/loader/Loader.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373484995699" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/loader/Client.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373484318394" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/loader/ui/tabs/BotTabPane.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373484258716" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/loader/ClientApplet.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373484744574" ignored="false" />
+    <file path="/NPCAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375743627152" ignored="false" />
+    <file path="/NPCDefAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373906019871" ignored="false" />
+    <file path="/NPC.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373913351080" ignored="false" />
+    <file path="/NPCDefinition.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373913353526" ignored="false" />
+    <file path="/main.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1373949990284" ignored="false" />
+    <file path="/PulseBot.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374077515167" ignored="false" />
+    <file path="/AbstractAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379819361922" ignored="false" />
+    <file path="/CacheableNodeAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375737514485" ignored="false" />
+    <file path="/GameShellAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1376031245560" ignored="false" />
+    <file path="/RSClient.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1382211822310" ignored="false" />
+    <file path="/IClient.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374121788551" ignored="false" />
+    <file path="/InstructionSearcher.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375742723776" ignored="false" />
+    <file path="/NPCDefinitionAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375743674029" ignored="false" />
+    <file path="/PlayerDefinitionAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375743772981" ignored="false" />
+    <file path="/JarUtils.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375735587066" ignored="false" />
+    <file path="/MethodUtils.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374888203382" ignored="false" />
+    <file path="/HashTableAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379287742799" ignored="false" />
+    <file path="/ILinkedList.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1374953172793" ignored="false" />
+    <file path="/LinkedListAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375743337136" ignored="false" />
+    <file path="/CacheAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375738159855" ignored="false" />
+    <file path="/Searcher.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375742539213" ignored="false" />
+    <file path="/ClassWrapper.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375052524020" ignored="false" />
+    <file path="/ClassAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379287392304" ignored="false" />
+    <file path="/Branch.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375050486152" ignored="false" />
+    <file path="/StaticBranch.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375051849451" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/resolvable/Getter.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053988633" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/resolvable/Resolvable.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053298387" ignored="false" />
+    <file path="/Resolvable.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053298387" ignored="false" />
+    <file path="/accesors.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053863272" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/wrapper/Modifier.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053999917" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/wrapper/MethodInsnWrapper.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053999918" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/resolvable/IntGetter.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053988633" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/resolvable/MethodMod.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053988633" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/resolvable/RenamedMethod.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053988633" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/wrapper/MethodWrapper.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053999918" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/wrapper/IWrapper.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053999917" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/wrapper/FieldWrapper.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375053999918" ignored="false" />
+    <file path="/Updater.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379820158125" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/analyzer/impl/Region.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375055536086" ignored="false" />
+    <file path="/MethodWrapper.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379287578563" ignored="false" />
+    <file path="/RSClassLoader.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375059028176" ignored="false" />
+    <file path="/ModScriptReader.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375734825250" ignored="false" />
+    <file path="/MethodData.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375059518995" ignored="false" />
+    <file path="/IModScriptNode.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375064300240" ignored="false" />
+    <file path="/ModScriptWriter.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375066115234" ignored="false" />
+    <file path="/GetterModscriptNode.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375064531468" ignored="false" />
+    <file path="/MethodCallModScriptNode.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375065118729" ignored="false" />
+    <file path="/ModScriptHandler.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375061960953" ignored="false" />
+    <file path="/GetterModScriptNode.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375063930891" ignored="false" />
+    <file path="/WorldList.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375732792274" ignored="false" />
+    <file path="/Configuration.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375733428292" ignored="false" />
+    <file path="/Pattern.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375739736443" ignored="false" />
+    <file path="/a.dummy" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375742834892" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseUpdater/out/artifacts/PulseUpdater_jar/log.xml" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375742932154" ignored="false" />
+    <file path="/QueueAnalyzer.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1375743875403" ignored="false" />
+    <file path="/FieldWrapper.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1376030705549" ignored="false" />
+    <file path="/RenameModScriptNode.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379285992848" ignored="false" />
+    <file path="/RenamedMethod.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379287255638" ignored="false" />
+    <file path="/FieldHook.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379818629503" ignored="false" />
+    <file path="/Hook.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1379820057341" ignored="false" />
+    <file path="/AccountManager.java" changelist="6a2aee9d-924b-4c80-81c3-1d652da0c662" time="1382212559028" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="COMPILER_PROCESS_ADDITIONAL_VM_OPTIONS" value="-ea -Xbootclasspath/p:Loader.jar" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="PulseBot" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Updater.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/Updater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="22" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsSearcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/searchers/InsSearcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="24" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PulseBot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/PulseBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="30" selection-start="2073" selection-end="2073" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="47" selection-start="2367" selection-end="2367" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScriptSelector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/ui/ScriptSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="16" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/ui/AccountManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="0" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionBar.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/ui/ActionBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="126" column="77" selection-start="3587" selection-end="3587" vertical-scroll-proportion="2.6731448">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogPane.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/ui/LogPane.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="13" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountEditor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/ui/AccountEditor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="453" selection-end="523" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractAnalyzer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/generic/AbstractAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="20" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/wrapper/MethodWrapper.java" />
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/analyzer/impl/HashTableAnalyzer.java" />
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/resolvable/IntGetter.java" />
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/analyzer/ClassAnalyzer.java" />
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/analyzer/impl/NodeAnalyzer.java" />
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/util/MethodUtils.java" />
+        <option value="$PROJECT_DIR$/../Shared/src/org/pulsebot/util/Utilities.java" />
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/generic/FieldHook.java" />
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/generic/AbstractAnalyzer.java" />
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/generic/Hook.java" />
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/analyzers/ClientAnalyzer.java" />
+        <option value="$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/Updater.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/RSClient.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/PulseBot.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/ui/AccountManager.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/ui/ActionBar.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1678" />
+    <option name="height" value="1008" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Data flow issues</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Imports</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructs</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>TrivialIf</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages ProjectPane="true" />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseUpdater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseUpdater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseUpdater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searchers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseUpdater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseUpdater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analyzers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseUpdater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pulsebot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulseBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pulsebot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../Shared/src/org/pulsebot" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/nimrodlf-1.2.jar!/" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.3817527" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.pulsebot.injection.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\Desktop\Programming\PulseBot\Shared\lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.pulsebot.resolvable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\Desktop\Programming\PulseBot\PulseUpdater" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Updater">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PulseBot" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Loader" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.pulsebot.loader.Loader" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PulseBot" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PulseBot" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.pulsebot.PulseBot" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PulseBot" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Searcher" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.pulsebot.insn.Searcher" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PulseUpdater" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Updater" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.pulsebot.Updater" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PulseUpdater" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Loader" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PulseBot" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Searcher" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Updater" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Updater" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PulseBot" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Searcher" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Loader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a2aee9d-924b-4c80-81c3-1d652da0c662" name="Default" comment="" />
+      <created>1369680922909</created>
+      <updated>1369680922909</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1678" height="1008" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34177214" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.49510404" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3141542" sideWeight="0.74847" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31257343" sideWeight="0.25153" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24846625" sideWeight="0.21403913" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33539605" sideWeight="0.72032905" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27967098" sideWeight="0.37438118" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32681242" sideWeight="0.49566832" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24294479" sideWeight="0.684271" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Shared/src/org/pulsebot/util/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="19" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/generic/FieldHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/analyzers/ClientAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="56" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/AddGetterAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shared/src/org/pulsebot/adapters/AddMethodCallAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/generic/Hook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="30" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/injection/generic/AbstractAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/Updater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="22" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PulseUpdater/src/org/pulsebot/searchers/InsSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/ui/ScriptSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="16" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/ui/LogPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="13" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/PulseBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="30" selection-start="2073" selection-end="2073" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="47" selection-start="2367" selection-end="2367" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/ui/AccountEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="453" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/ui/AccountManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/ui/ActionBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="77" selection-start="3587" selection-end="3587" vertical-scroll-proportion="2.6731448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>PulseBot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PulseBot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>PulseUpdater</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

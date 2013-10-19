@@ -1,0 +1,12 @@
+<config>
+    <jars>
+        <jar in="PulseUpdater.jar" out="PulseUpdater.jar"/>
+        
+    </jars>
+
+    <keep-names>
+        <class template="class *.Loader"/>
+    </keep-names>
+
+    <property name="log-file" value="log.xml"/>
+</config>
