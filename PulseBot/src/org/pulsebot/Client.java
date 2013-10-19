@@ -107,46 +107,7 @@ public class Client extends JPanel implements AppletStub {
 
 		return gameBuffer.getGraphics();
     }
-    
-    public Object findObjectFromPath(Object o, String path) throws Exception {
-        String[] parts = path.split("\\.");
-        Stack<String> stack = new Stack<String>();
-        Field field;
-        if (o == null) {
-            Class<?> c = classLoader.loadClass(parts[0]);
-            for (int i = parts.length - 1; i > 0; i--) {
-                stack.push(parts[i]);
-            }
-            field = c.getDeclaredField(stack.pop());
-            field.setAccessible(true);
-            o = field.get(null);
-        } else {
-            for (int i = parts.length - 1; i >= 0; i--) {
-                stack.push(parts[i]);
-            }
-        }
-        if (!stack.empty()) {
-            while (!stack.empty()) {
-                String theField = stack.pop();
-                Class<?> theClass = o.getClass();
-                field = null;
-                while (field == null && theClass != Object.class) {
-                    try {
-                        field = theClass.getDeclaredField(theField);
-                    } catch (Exception e) {
-                        try {
-                            theClass = theClass.getSuperclass();
-                        } catch (Exception x) {
-                            break;
-                        }
-                    }
-                }
-                field.setAccessible(true);
-                o = field.get(o);
-            }
-        }
-        return o;
-    }
+
     
     @Override
 	public void appletResize(int x, int y) {
