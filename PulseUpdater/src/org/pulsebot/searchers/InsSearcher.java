@@ -4,12 +4,20 @@ import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.*;
 
 public class InsSearcher {
+    /**
+     * @author Cov
+     */
     private InsnList list;
     private AbstractInsnNode currentNode;
     public InsSearcher(MethodNode mn){
         list = mn.instructions;
         currentNode = list.getFirst();
     }
+
+    /**
+     *
+     * @author NKN
+     */
     public AbstractInsnNode match(int... opcodes){
         refresh();
         for (int i = 0; i < opcodes.length; i++){
