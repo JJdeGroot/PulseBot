@@ -7,11 +7,11 @@ import java.util.HashMap;
 public abstract class AbstractAnalyzer {
     public static HashMap<String, ClassNode> classNodes = new HashMap<>();
     public static HashMap<String, String> className = new HashMap<>();
-
     /** Runs the analyzer */
     public Hook run(ClassNode node) {
-        if (canRun(node))
+        if (canRun(node)) {
            return analyse(node);
+        }
         return null;
     }
 

@@ -3,6 +3,7 @@ package org.pulsebot.injection.analyzers;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.*;
 import org.pulsebot.injection.generic.AbstractAnalyzer;
+import org.pulsebot.injection.generic.FieldAnalyzer;
 import org.pulsebot.injection.generic.Hook;
 import org.pulsebot.searchers.InsSearcher;
 
@@ -20,13 +21,28 @@ import java.util.regex.Pattern;
 public class PlayerAnalyzer extends AbstractAnalyzer {
     @Override
     protected boolean canRun(ClassNode node) {
+        int stringCount = 0;
         if(node.superName.equals(classNodes.get("Actor").name)){
-            String modelPattern = "L"+classNodes.get("Model").name+";";
             ListIterator<FieldNode> fnIt = node.fields.listIterator();
             while(fnIt.hasNext()){
                 FieldNode fn = fnIt.next();
-                if(fn.desc.equals(modelPattern))
-                    return true;
+                if(fn.desc.equals("Ljava/lang/String;"))
+                    stringCount++;
+
+            }
+            if(stringCount == 1){
+                ListIterator<MethodNode> mnIt = node.methods.listIterator();
+                while(mnIt.hasNext()){
+                    MethodNode mn = mnIt.next();
+                    Pattern methodPattern = Pattern.compile("\\)(\\w+)");
+                    Matcher matcher = methodPattern.matcher(mn.desc);
+                    if(matcher.find() && matcher.groupCount() > 1){
+                        if(!matcher.group(1).equals("L"+classNodes.get("Model").name))
+                            return false;
+                    }
+
+                }
+                return true;
             }
         }
         return false;
@@ -39,49 +55,85 @@ public class PlayerAnalyzer extends AbstractAnalyzer {
         ListIterator<FieldNode> fnIt = node.fields.listIterator();
         while(fnIt.hasNext()){
             FieldNode fn = fnIt.next();
-            if(fn.desc.equals("Ljava/lang/String;")){
-                if(!hook.getFieldHooks().containsKey("PlayerName"))
-                    hook.addFieldHook("PlayerName", node.name + "." + fn.name, "Ljava/lang/String");
-            }
-            String pat = "L"+classNodes.get("Model").name + ";";
-            if(fn.desc.equals(pat))
-                if(!hook.getFieldHooks().containsKey("PlayerModel"))
-                    hook.addFieldHook("PlayerModel",node.name + "." + fn.name, pat);
+            new PlayerNameAnalyzer(node,hook,fn).run();
+            new PlayerModelAnalyzer(node,hook,fn).run();
         }
         ListIterator<MethodNode> mnIt = node.methods.listIterator();
         while(mnIt.hasNext()){
             MethodNode mn = mnIt.next();
-            InsSearcher searcher = new InsSearcher(mn);
-            AbstractInsnNode node1;
-
-
-
-
-
-
-
-
-            // PlayerDefinition Analyzer
-
-            int[] pattern = new int[] {Opcodes.ALOAD, Opcodes.GETFIELD, Opcodes.IF_ACMPNE};
-            searcher.match(pattern);
-            node1 = searcher.getPrevious(Opcodes.GETFIELD);
-            if(node1 != null && node1 instanceof FieldInsnNode){
-                Pattern defPattern = Pattern.compile("L(\\w+);");
-                Matcher defMatcher = defPattern.matcher(((FieldInsnNode)node1).desc);
-                if(defMatcher.find()){
-
-                    if(!hook.getFieldHooks().containsKey("PlayerDefinition")){
-                        hook.addFieldHook("PlayerDefinition",node.name + "." +((FieldInsnNode)node1).name,"L"+defMatcher.group(1)+";");
-                        className.put("PlayerDefinition",defMatcher.group(1));
-                    }
-                }
-
-            }
-
-            //End PlayerDefinition Analyzer
-
+            new PlayerDefAnalyzer(node,hook,mn).run();
         }
         return hook;
+    }
+
+    private class PlayerModelAnalyzer extends FieldAnalyzer {
+        private String pat = "L"+classNodes.get("Model").name + ";";
+        public PlayerModelAnalyzer(ClassNode node, Hook hook, FieldNode fn) {
+            super(node, hook, fn);
+        }
+
+        @Override
+        protected boolean canRun() {
+            return fn.desc.equals(pat) && !hook.getFieldHooks().containsKey("PlayerModel");
+        }
+
+        @Override
+        protected void analyze() {
+            hook.addFieldHook("PlayerModel",node.name + "." + fn.name, pat);
+        }
+    }
+
+    private class PlayerDefAnalyzer extends FieldAnalyzer {
+        private FieldInsnNode fn;
+        private String classCall;
+        public PlayerDefAnalyzer(ClassNode node, Hook hook, MethodNode mn) {
+            super(node, hook, mn);
+        }
+        @Override
+        protected boolean canRun() {
+            if(!hook.getFieldHooks().containsKey("PlayerDefinition")) {
+                InsSearcher searcher = new InsSearcher(mn);
+                AbstractInsnNode node1;
+                int[] pattern = new int[] {Opcodes.ALOAD, Opcodes.GETFIELD, Opcodes.IF_ACMPNE};
+                searcher.match(pattern);
+                node1 = searcher.getPrevious(Opcodes.GETFIELD);
+                if(node1 != null && node1 instanceof FieldInsnNode){
+                    Pattern defPattern = Pattern.compile("L(\\w+);");
+                    Matcher defMatcher = defPattern.matcher(((FieldInsnNode)node1).desc);
+                    if(defMatcher.find()){
+                        this.classCall = defMatcher.group(1);
+                        this.fn = (FieldInsnNode)node1;
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        @Override
+        protected void analyze() {
+            hook.addFieldHook("PlayerDefinition",node.name + "." +fn.name,"L"+classCall+";");
+            className.put("PlayerDefinition",classCall);
+        }
+    }
+
+    private class PlayerNameAnalyzer extends FieldAnalyzer{
+
+        public PlayerNameAnalyzer(ClassNode node, Hook hook, FieldNode fn) {
+            super(node, hook, fn);
+        }
+
+        @Override
+        protected boolean canRun() {
+            return fn.desc.equals("Ljava/lang/String;") && !hook.getFieldHooks().containsKey("PlayerName");
+        }
+
+        @Override
+        protected void analyze() {
+            hook.addFieldHook("PlayerName", node.name + "." + fn.name, "Ljava/lang/String");
+        }
+
+
     }
 }

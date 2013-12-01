@@ -13,7 +13,7 @@
     <file path="/ClientAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380637172503" ignored="false" />
     <file path="/NodeAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1379960456322" ignored="false" />
     <file path="/Updater.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1382211231162" ignored="false" />
-    <file path="/PlayerAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380851210327" ignored="false" />
+    <file path="/PlayerAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1385930038815" ignored="false" />
     <file path="/ModelAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1379960924394" ignored="false" />
     <file path="/CacheableNodeAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1379960632496" ignored="false" />
     <file path="/RenderableAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1379960791158" ignored="false" />
@@ -21,12 +21,15 @@
     <file path="/CacheAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380032588915" ignored="false" />
     <file path="/NodeHashTableAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380032551652" ignored="false" />
     <file path="/PlayerDefAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380205465290" ignored="false" />
-    <file path="/AbstractAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380205364173" ignored="false" />
+    <file path="/AbstractAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1385903000452" ignored="false" />
     <file path="/Hook.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380292351180" ignored="false" />
     <file path="/NPCAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380637018941" ignored="false" />
     <file path="/NPCDefinitionAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380637031142" ignored="false" />
-    <file path="/Dummy.txt" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380651122508" ignored="false" />
+    <file path="/Dummy.txt" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1385903295855" ignored="false" />
     <file path="$PROJECT_DIR$/../PulseBot/src/org/pulsebot/RSClient.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1380651260508" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseBot/src/org/pulsebot/ui/ImageButton.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1385903293521" ignored="false" />
+    <file path="$PROJECT_DIR$/../PulseBot/src/org/pulsebot/PulseBot.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1385903293521" ignored="false" />
+    <file path="/FieldAnalyzer.java" changelist="6a25bfaa-9d52-4131-aae8-85e050b845cf" time="1385928931740" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -94,7 +98,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -104,26 +107,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InsSearcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/searchers/InsSearcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="36" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Updater.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/Updater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="88" selection-start="2810" selection-end="2810" vertical-scroll-proportion="1.6834952">
-              <folding>
-                <element signature="e#2467#2483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PlayerDefAnalyzer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/PlayerDefAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,55 +116,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerAnalyzer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/PlayerAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="70" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="System.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://E:/jdk1.7.0_25/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="19" selection-start="1224" selection-end="1252" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hook.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/Hook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="50" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAnalyzer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/AbstractAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="87" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NPCAnalyzer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NPCAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="35" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NPCDefinitionAnalyzer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NPCDefinitionAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="45" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+            <state line="13" column="13" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheableNodeAnalyzer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/CacheableNodeAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="16" selection-start="423" selection-end="425" vertical-scroll-proportion="-6.04">
               <folding />
             </state>
           </provider>
@@ -191,6 +138,62 @@
         <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NodeHashTableAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorAnalyzer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/ActorAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="13" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerAnalyzer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/PlayerAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="30" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.7281553">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FieldAnalyzer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/FieldAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="20" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FieldHook.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/FieldHook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractAnalyzer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/AbstractAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="57" selection-start="465" selection-end="656" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelAnalyzer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/ModelAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="14" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -206,22 +209,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/CacheAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NodeAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NodeHashTableAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/ActorAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/CacheableNodeAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/ModelAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/RenderableAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/generic/AbstractAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/PlayerDefAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/searchers/InsSearcher.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/generic/Hook.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NPCAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NPCDefinitionAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/ClientAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/PlayerAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/org/pulsebot/Updater.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/generic/AbstractAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/generic/FieldAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/PlayerAnalyzer.java" />
       </list>
     </option>
   </component>
@@ -369,8 +372,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,13 +389,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="last.edited.regexp" value="" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last.edited.regexp" value="" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.Updater">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -517,13 +520,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3130129" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31257343" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24690594" sideWeight="0.6756757" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3243243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -597,47 +600,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/Updater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="47" selection-start="4544" selection-end="4544" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2467#2483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/Updater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2467#2483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/Updater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2467#2483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/ClientAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="49" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/FieldHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="50" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
@@ -645,9 +607,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NPCDefinitionAnalyzer.java">
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/searchers/InsSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="45" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+        <state line="35" column="37" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/Updater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="23" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2467#2483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NPCAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NodeAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/ModelAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/CacheableNodeAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="423" selection-end="425" vertical-scroll-proportion="-6.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/ActorAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/ClientAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="464" selection-end="464" vertical-scroll-proportion="-0.053030305">
           <folding />
         </state>
       </provider>
@@ -659,30 +672,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/ClientAnalyzer.java">
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NPCDefinitionAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="49" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/AbstractAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="87" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk1.7.0_25/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="19" selection-start="1224" selection-end="1252" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/NPCAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="35" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
+        <state line="13" column="13" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -694,26 +686,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/AbstractAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="57" selection-start="465" selection-end="656" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/FieldHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/generic/FieldAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="20" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pulsebot/injection/analyzers/PlayerAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="70" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0">
+        <state line="65" column="30" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.7281553">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/searchers/InsSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="36" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pulsebot/Updater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="88" selection-start="2810" selection-end="2810" vertical-scroll-proportion="1.6834952">
-          <folding>
-            <element signature="e#2467#2483#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
