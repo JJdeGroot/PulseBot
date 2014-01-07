@@ -6,9 +6,11 @@ import org.objectweb.asm.tree.ClassNode;
 import org.objectweb.asm.tree.FieldInsnNode;
 import org.objectweb.asm.tree.MethodNode;
 import org.pulsebot.injection.generic.AbstractAnalyzer;
+import org.pulsebot.injection.generic.FieldAnalyzer;
 import org.pulsebot.injection.generic.Hook;
 import org.pulsebot.searchers.InsSearcher;
 
+import java.util.ArrayList;
 import java.util.ListIterator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -32,24 +34,44 @@ public class NPCAnalyzer extends AbstractAnalyzer {
         Hook hook = new Hook("NPC", node.name);
         classNodes.put("NPC",node);
         for (Object mn : node.methods) {
-            InsSearcher searcher = new InsSearcher((MethodNode)mn);
-            AbstractInsnNode node1;
-            int[] pattern = {Opcodes.ALOAD, Opcodes.GETFIELD};
-            searcher.match(pattern);
-            node1 = searcher.getPrevious(Opcodes.GETFIELD);
-            if (node1 != null && node1 instanceof FieldInsnNode) {
-                Pattern defPattern = Pattern.compile("L(\\w+);");
-                Matcher defMatcher = defPattern.matcher(((FieldInsnNode) node1).desc);
-                if (defMatcher.find()) {
+            new NPCDefAnalyzer(node,hook,(MethodNode)mn).run();
+        }
+        return hook;
+    }
 
+    private class NPCDefAnalyzer extends FieldAnalyzer {
+        private ArrayList<AbstractInsnNode> arrList = new ArrayList<>();
+        Pattern defPattern = Pattern.compile("L(\\w+);");
+        Matcher defMatcher;
+        InsSearcher searcher = new InsSearcher(mn);
+        int[] pattern = {Opcodes.ALOAD, Opcodes.GETFIELD};
+        public NPCDefAnalyzer(ClassNode node, Hook hook, MethodNode mn) {
+            super(node, hook, mn);
+        }
+
+        @Override
+        protected boolean canRun() {
+
+           arrList =  searcher.match(pattern);
+
+            return !hook.getFieldHooks().containsKey("NPCDefinition") && arrList != null;  //To change body of implemented methods use File | Settings | File Templates.
+        }
+
+        @Override
+        protected void analyze() {
+            for(AbstractInsnNode node1 : arrList){
+                searcher.setIndex(node1);
+                node1 = searcher.getPrevious(Opcodes.GETFIELD);
+                if(node1 != null && node1 instanceof FieldInsnNode)
+                    defMatcher = defPattern.matcher(((FieldInsnNode) node1).desc);
+                if(defMatcher.find() && defMatcher != null){
                     className.put("NPCDefinition", defMatcher.group(1));
-                    if (!hook.getFieldHooks().containsKey("NPCDefinition"))
-                        hook.addFieldHook("NPCDefinition", node.name + "." + ((FieldInsnNode) node1).name, "L" + defMatcher.group(1) + ";");
+                    hook.addFieldHook("NPCDefinition", node.name + "." + ((FieldInsnNode) node1).name, "L" + defMatcher.group(1) + ";");
+                    break;
                 }
 
             }
 
         }
-        return hook;
     }
 }

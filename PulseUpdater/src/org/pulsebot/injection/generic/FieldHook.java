@@ -34,4 +34,8 @@ public class FieldHook {
     public int getMultiplier(){
         return multiplier;
     }
+
+    public void setMultiplier(int multiplier){
+        this.multiplier = multiplier;
+    }
 }

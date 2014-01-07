@@ -3,6 +3,8 @@ package org.pulsebot.searchers;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.*;
 
+import java.util.ArrayList;
+
 public class InsSearcher {
     /**
      * @author Cov
@@ -18,28 +20,31 @@ public class InsSearcher {
      *
      * @author NKN
      */
-    public AbstractInsnNode match(int... opcodes){
-        refresh();
-        for (int i = 0; i < opcodes.length; i++){
-            if(currentNode == null){
-                refresh();
-                return null;
-            }
-            if(currentNode.getOpcode() == opcodes[i]){
-                currentNode = currentNode.getNext();
-                continue;
-            }
-            else if(currentNode.getOpcode() == Opcodes.GOTO){
-
-                if(((JumpInsnNode)currentNode).label.getNext().getOpcode() == opcodes[i]){
-                    currentNode = getNextMulti(2);
+    public ArrayList<AbstractInsnNode> match(int... opcodes){
+        ArrayList<AbstractInsnNode> abList = new ArrayList<>();
+        while(currentNode != null){
+            for (int i = 0; i < opcodes.length; i++){
+                if(currentNode == null){
+                    refresh();
+                    return abList;
+                }
+                if(currentNode.getOpcode() == opcodes[i]){
+                    currentNode = currentNode.getNext();
                     continue;
                 }
+                else if(currentNode.getOpcode() == Opcodes.GOTO){
+
+                    if(((JumpInsnNode)currentNode).label.getNext().getOpcode() == opcodes[i]){
+                        currentNode = getNextMulti(1);
+                        continue;
+                    }
+                }
+                i = 0;
+                currentNode = currentNode.getNext();
             }
-            i = 0;
-            currentNode = currentNode.getNext();
+            abList.add(currentNode.getPrevious());
         }
-        return currentNode.getPrevious();
+        return abList;
     }
     public AbstractInsnNode getNext(){
         if(currentNode != null){
@@ -100,8 +105,15 @@ public class InsSearcher {
         currentNode = list.get(i);
     }
 
+    public void setIndex(AbstractInsnNode ab){
+        currentNode = list.get(getIndex(ab));
+    }
+
     public int getIndex(){
         return list.indexOf(currentNode);
+    }
+    public int getIndex(AbstractInsnNode ab){
+        return list.indexOf(ab);
     }
 
     public AbstractInsnNode getCurrentNode(){
